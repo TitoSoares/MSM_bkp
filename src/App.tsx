@@ -3,7 +3,7 @@ import './App.css';
 function Home() {
   return (
     <div className="App">
-      Teste
+      Teste de aplicação
     </div>
   );
 }
