@@ -10,6 +10,8 @@ function Home() {
           <div className="CaixaText"></div>
           <div className="CaixaText"></div>
           <div className="CaixaText"></div>
+          </div>
+        <div className="DivCenter">
           <div className="CaixaText"></div>
           <div className="CaixaText"></div>
           <div className="CaixaText"></div>
