@@ -3,26 +3,47 @@
     display: flex;
     flex-direction: row 
 }
-/*Cabeçalho*/
+/*=================================================================================================================================*/
+/*CABEÇALHO*/
 .cabecalho{
+    flex-direction: row;
+    display: flex;
     width: 100%;
-    height: 150px;
+    height: auto;
     background-color: black;
-    color: aquamarine;
+    justify-content:space-around;
+    
 }
-/*Texto central*/
-.TextoCentral{
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.menu{
+    margin-top: 35px;
+    margin-left:10px;
+    color:black;
+    font-size: 30px;
+    margin-right:10px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 1px blue solid;
+    border-radius: 30px;
+
 }
+.imagemMenu{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-color: red;
+}
+/*=================================================================================================================================*/
+/*FUNÇÃO GOV*/
 /*Centro da página*/
 .DivCenter{
     padding-top: 50px;
     display: flex;
     background-color: brown;
     width:100%;
-    height:450px;
+    height:auto;
     flex-wrap: wrap;
     justify-content:space-around;
 }
@@ -31,4 +52,30 @@
     background-color: blueviolet;
     width: 286px;
     height:336px;
+    margin-bottom: 50px;
+}
+/*=================================================================================================================================*/
+/*GERENCIAMENTO*/
+/*Funções*/
+.funcoesGen{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+    height: auto;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.caixaFuncGen{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    height: 100px;
+    width: 90%;
+    border-top: 10px red solid;
+    border-bottom:10px red solid;
+    border-radius: 50px;
+    color: white;
+    font-size: 30px;
 }

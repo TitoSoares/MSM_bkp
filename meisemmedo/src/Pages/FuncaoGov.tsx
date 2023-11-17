@@ -1,11 +1,10 @@
-import "../../Componentes/estyle/estilo.css"
-import FuncaoCabecalho from "../../Componentes/Cabecalho";
+import "../Componentes/estyle/estilo.css"
+import FuncaoCabecalho from "../Componentes/Cabecalho";
 
-function Home() {
+function FuncaoGov() {
   return (
     <div className="App">
       <FuncaoCabecalho/>
-      <div className="TextoCentral">Não sabe como começar? Comece por aqui!</div>
         <div className="DivCenter">
           <div className="CaixaText"></div>
           <div className="CaixaText"></div>
@@ -20,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default FuncaoGov;

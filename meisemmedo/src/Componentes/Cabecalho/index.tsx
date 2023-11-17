@@ -3,8 +3,10 @@ import "../estyle/estilo.css"
 function FuncaoCabecalho(){
     return(
          <div className="cabecalho">
-            <div></div>
-            <div></div>
+            <div className="menu">Menu</div>
+            <div className="menu">Menu</div>
+            <div className="menu">Menu</div>
+            <div className="imagemMenu"></div>
          </div>
     )
 }
