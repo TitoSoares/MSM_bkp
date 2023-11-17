@@ -4,7 +4,29 @@ function Cadastro(){
     return(
         <div>
             <FuncaoCabecalho/>
-            Cadastro
+            <div className="formatacaoCadastro">
+                <div className="cadastro">
+                    <div className="elementoCadastro">CPF:</div>
+                    <div className="elementoCadastro">CNPJ:</div>
+                    
+                </div>
+                <div className="cadastro">
+                    <div className="elementoCadastro">NOME COMPLETO:</div>
+                    <div className="elementoCadastro">DATA DE NASCIMENTO:</div>
+                </div>
+                <div className="cadastro">
+                    <div className="elementoCadastro">ESTADO CIVIL:</div>
+                    <div className="elementoCadastro">FILHOS:</div>
+                </div>
+                <div className="cadastro">
+                    <div className="elementoCadastro">PATRÍMONIO:</div>
+                    <div className="elementoCadastro">COMPROVANTE DE RESIDENCIA:</div>
+                </div>
+                <div className="cadastro">
+                    <div className="elementoCadastro">GÊNERO:</div>
+                    <div className="elementoCadastro">ALTURA:</div>
+                </div>
+            </div>
         </div>
     )
 }

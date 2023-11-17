@@ -4,7 +4,14 @@ function Login(){
     return(
         <div>
         <FuncaoCabecalho/>
-        Login
+            <div className="login">
+                <div className="elementoLogin"></div>
+                <div className="elementoLogin"></div>
+                <div className="funLogin">
+                    <div className="botaoLogin">Login</div>
+                    <div className="botaoCancel">Carcelar</div>
+                </div>
+            </div>
         </div>
     )
 }

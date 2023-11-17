@@ -4,7 +4,9 @@ function Home(){
     return(
         <div>
             <FuncaoCabecalho/>
-            ESSA É A HOME
+            <div className="home">
+        
+            </div>
         </div>
     )
 }

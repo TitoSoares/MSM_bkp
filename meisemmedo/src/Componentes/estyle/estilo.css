@@ -20,7 +20,7 @@
     color:black;
     font-size: 30px;
     margin-right:10px;
-    width: 200px;
+    width: 300px;
     height: 50px;
     background-color: white;
     border: 1px blue solid;
@@ -78,4 +78,93 @@
     border-radius: 50px;
     color: white;
     font-size: 30px;
+}
+/*=================================================================================================================================*/
+/*CADASTRO*/
+/*Funções*/
+.formatacaoCadastro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.cadastro{
+    background-color: red;
+    height: auto;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.elementoCadastro{
+    font-size: 30px;
+    color:black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+    height: 80px;
+    background-color:blue;
+    border-radius: 50px;
+}
+/*=================================================================================================================================*/
+/*LOGIN*/
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: red;
+    justify-content:space-around;
+    
+}
+.elementoLogin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50px;
+}
+.funLogin{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction:row;
+    background-color: violet;
+    width:auto;
+    height: auto;
+    
+}
+.botaoLogin{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+.botaoCancel{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: chocolate;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+}
+/*=================================================================================================================================*/
+/*HOME*/
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height:auto;
+    flex-direction:row;
+    background-color: red;
 }
