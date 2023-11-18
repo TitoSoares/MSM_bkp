@@ -10,21 +10,20 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color: black;
+    background:linear-gradient(to top,#2B485F,#122029) ;
     justify-content:space-around;
-    
+    border: 1px solid white;
 }
 .menu{
-    margin-top: 35px;
+    margin-top: 34px;
     margin-left:10px;
-    color:black;
+    color:white;
     font-size: 30px;
     margin-right:10px;
     width: 300px;
     height: 50px;
-    background-color: white;
-    border: 1px blue solid;
     border-radius: 30px;
+    border:white solid 2px;
 
 }
 .imagemMenu{
@@ -34,6 +33,20 @@
     height: 100px;
     border-radius:50%;
     background-color: red;
+    border:2px white solid;
+}
+.imagemLogin{
+    margin-top: 20px;
+    margin-bottom:35px;
+    width: 250px;
+    height:250px;
+    border-radius:50%;
+    background-color: cornflowerblue;
+}
+.imagemLogo{
+    border-radius: 25%;
+    width: 100px;
+    height: 100px;
 }
 /*=================================================================================================================================*/
 /*FUNÇÃO GOV*/
@@ -41,7 +54,6 @@
 .DivCenter{
     padding-top: 50px;
     display: flex;
-    background-color: brown;
     width:100%;
     height:auto;
     flex-wrap: wrap;
@@ -49,7 +61,8 @@
 }
 /*Caixa de texto*/
 .CaixaText{
-    background-color: blueviolet;
+    border-radius: 25%;
+    background-color:#122029;
     width: 286px;
     height:336px;
     margin-bottom: 50px;
@@ -60,7 +73,7 @@
 .funcoesGen{
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color:white;
     width: 100%;
     height: auto;
     justify-content:space-around;
@@ -68,16 +81,16 @@
     align-items: center;
 }
 .caixaFuncGen{
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: black;
-    height: 100px;
-    width: 90%;
-    border-top: 10px red solid;
-    border-bottom:10px red solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#2B485F;
+    height: 70px;
+    width: 98%;
     border-radius: 50px;
     color: white;
     font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 /*=================================================================================================================================*/
 /*CADASTRO*/
@@ -89,7 +102,6 @@
     justify-content:space-around;
 }
 .cadastro{
-    background-color: red;
     height: auto;
     width:100%;
     flex-wrap: wrap;
@@ -100,45 +112,63 @@
 }
 .elementoCadastro{
     font-size: 30px;
-    color:black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 30%;
-    height: 80px;
-    background-color:blue;
+    height: 60px;
+    background-color:#2B485F;
     border-radius: 50px;
 }
 /*=================================================================================================================================*/
 /*LOGIN*/
+.logincoluna{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textologin{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    font-size: 100px;
+    color: white;
+    align-items: center;
+    margin-left: 30px;
+}
 .login{
+    margin-top: 72px;
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     flex-wrap: wrap;
-    background-color: red;
     justify-content:space-around;
-    
+    flex: 2;
+    background-color:white;
+    border: 2px solid black;
 }
 .elementoLogin{
     margin-top: 30px;
     margin-bottom: 30px;
     width: 50%;
-    height: 100px;
-    background-color: blue;
+    height: 55px;
+    background-color:#2B485F;
     border-radius: 50px;
+    font-size: 25px;
 }
 .funLogin{
+    flex: 1;
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     flex-direction:row;
-    background-color: violet;
     width:auto;
     height: auto;
-    
+    margin-bottom: 10px;
 }
 .botaoLogin{
     margin-left: 10px;
@@ -167,4 +197,12 @@
     height:auto;
     flex-direction:row;
     background-color: red;
+}
+/*=================================================================================================================================*/
+.planoFundo{
+    background-image: url("../../../public/122029\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh
 }

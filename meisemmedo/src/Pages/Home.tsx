@@ -2,7 +2,7 @@ import FuncaoCabecalho from "../Componentes/Cabecalho";
 import "../Componentes/estyle/estilo.css"
 function Home(){
     return(
-        <div>
+        <div className="planoFundo">
             <FuncaoCabecalho/>
             <div className="home">
         

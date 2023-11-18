@@ -2,13 +2,13 @@ import FuncaoCabecalho from "../Componentes/Cabecalho"
 import "../Componentes/estyle/estilo.css"
 function Cadastro(){
     return(
-        <div>
+        <div className="planoFundo">
             <FuncaoCabecalho/>
             <div className="formatacaoCadastro">
+                <div className="imagemLogo"></div>
                 <div className="cadastro">
                     <div className="elementoCadastro">CPF:</div>
                     <div className="elementoCadastro">CNPJ:</div>
-                    
                 </div>
                 <div className="cadastro">
                     <div className="elementoCadastro">NOME COMPLETO:</div>

@@ -6,6 +6,7 @@ function FuncaoCabecalho(){
             <div className="menu">Menu</div>
             <div className="menu">Menu</div>
             <div className="menu">Menu</div>
+            <div className="menu">Menu</div>
             <div className="imagemMenu"></div>
          </div>
     )

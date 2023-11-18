@@ -3,17 +3,19 @@ import FuncaoCabecalho from "../Componentes/Cabecalho";
 
 function FuncaoGov() {
   return (
-    <div className="App">
+    <div className="planoFundo">
       <FuncaoCabecalho/>
         <div className="DivCenter">
-          <div className="CaixaText"></div>
-          <div className="CaixaText"></div>
-          <div className="CaixaText"></div>
+          <div className="DivCenter">
+            <div className="CaixaText"></div>
+            <div className="CaixaText"></div>
+            <div className="CaixaText"></div>
           </div>
-        <div className="DivCenter">
-          <div className="CaixaText"></div>
-          <div className="CaixaText"></div>
-          <div className="CaixaText"></div>
+          <div className="DivCenter">
+            <div className="CaixaText"></div>
+            <div className="CaixaText"></div>
+            <div className="CaixaText"></div>
+          </div>
         </div>
     </div>
   )

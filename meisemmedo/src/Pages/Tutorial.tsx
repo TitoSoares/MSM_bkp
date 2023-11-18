@@ -2,9 +2,11 @@ import FuncaoCabecalho from "../Componentes/Cabecalho"
 import "../Componentes/estyle/estilo.css"
 function Tutorial(){
     return(
-        <div>
+        <div className="planoFundo">
             <FuncaoCabecalho/>
-            Tutorial
+            <div>
+                Página para tutorial
+            </div>
         </div>
     )
 }
