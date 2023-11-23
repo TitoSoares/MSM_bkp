@@ -14,6 +14,7 @@
     justify-content:space-around;
     border: 1px solid white;
 }
+/*Menu*/
 .menu{
     margin-top: 34px;
     margin-left:10px;
@@ -29,6 +30,11 @@
 .menu:hover{
     background-color:rgba(255, 255, 255, 0.199);
 }
+.menusao{
+    display: flex;
+    flex-direction: row;
+}
+/*Imagem*/
 .imagemMenu{
     margin-top:10px;
     margin-bottom: 10px;
@@ -39,7 +45,7 @@
     border:2px white solid;
 }
 .imagemMenu:hover{
-    background-color:rgba(255, 255, 255, 0.034);
+    background-image: none;
 }
 .imagemLogin{
     margin-top: 20px;
@@ -53,10 +59,6 @@
     border-radius: 25%;
     width: 100px;
     height: 100px;
-}
-.menusao{
-    display: flex;
-    flex-direction: row;
 }
 /*=================================================================================================================================*/
 /*FUNÇÃO GOV*/
@@ -232,6 +234,7 @@
     background-color: red;
 }
 /*=================================================================================================================================*/
+/*PLANO DE FUNDO*/
 .planoFundo{
     background-image: url("../../../public/122029\ \(1\).jpg");
     background-repeat: no-repeat;
@@ -239,6 +242,7 @@
     background-size: cover;
 }
 /*=================================================================================================================================*/
+/*LINK*/
 .Link{
     text-decoration:none;
 }
