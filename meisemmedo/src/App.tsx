@@ -8,10 +8,12 @@ import Gerenciamento from './Pages/Gerenciamento';
 import Tutorial from './Pages/Tutorial';
 import Login from './Pages/Login';
 import Cadastro from './Pages/Cadastro';
+import NotFound from './Pages/NotFound';
 function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path='*' element={<NotFound/>}></Route>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/gov' element={<FuncaoGov/>}></Route>
         <Route path='/gen' element={<Gerenciamento/>}></Route>

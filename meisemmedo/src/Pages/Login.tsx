@@ -2,16 +2,17 @@ import FuncaoCabecalho from "../Componentes/Cabecalho"
 import "../Componentes/estyle/estilo.css"
 function Login(){
     return(
-        <div className="planoFundo">
+        <div className="planoFundoLogin">
             <div className="logincoluna">
                 <div className="textologin">
-                    <div>
-                        Mei Sem Medo <br/>
-                        <br/>
+                    <div className="textoLogin1">
+                        Mei Sem Medo
                     </div>
-                    <div>
-                        Um Portal para <br />
-                        desmestificar <br />
+                    <div className="textoLogin2">
+                        Um Portal para
+                    </div>
+                    <div className="textoLogin3">    
+                        desmestificar 
                         seu negócio.
                     </div>
                 </div>

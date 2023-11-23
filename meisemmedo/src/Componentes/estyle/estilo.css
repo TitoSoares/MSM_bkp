@@ -24,7 +24,10 @@
     height: 50px;
     border-radius: 30px;
     border:white solid 2px;
-
+    
+}
+.menu:hover{
+    background-color:rgba(255, 255, 255, 0.199);
 }
 .imagemMenu{
     margin-top:10px;
@@ -34,6 +37,9 @@
     border-radius:50%;
     background-color: red;
     border:2px white solid;
+}
+.imagemMenu:hover{
+    background-color:rgba(255, 255, 255, 0.034);
 }
 .imagemLogin{
     margin-top: 20px;
@@ -47,6 +53,10 @@
     border-radius: 25%;
     width: 100px;
     height: 100px;
+}
+.menusao{
+    display: flex;
+    flex-direction: row;
 }
 /*=================================================================================================================================*/
 /*FUNÇÃO GOV*/
@@ -127,7 +137,6 @@
     flex-direction: row;
     justify-content: center;
 }
-
 .textologin{
     display: flex;
     flex-direction: column;
@@ -188,6 +197,30 @@
     width: 150px;
     border-radius: 50px;
 }
+.planoFundoLogin{
+    background-image: url("../../../public/122029\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh
+}
+.textoLogin1{
+    margin-top:40px;
+    margin-right:120px;
+    color: #2B485F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textoLogin2{
+    margin-top:50px;
+    margin-right:120px;
+    color: #2B485F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textoLogin3{
+    margin-right:120px;
+    color: #2B485F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /*=================================================================================================================================*/
 /*HOME*/
 .home{
@@ -204,5 +237,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:100vh
+}
+/*=================================================================================================================================*/
+.Link{
+    text-decoration:none;
 }
