@@ -3,9 +3,9 @@ import "../Componentes/estyle/estilo.css"
 function Home(){
     return(
         <div className="planoFundoLogin">
-            <FuncaoCabecalho/>
+            <FuncaoCabecalho caminho={"Home"}/>
             <div className="home">
-        
+
             </div>
         </div>
     )

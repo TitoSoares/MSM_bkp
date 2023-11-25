@@ -3,7 +3,7 @@ import "../Componentes/estyle/estilo.css"
 function Tutorial(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho/>
+            <FuncaoCabecalho caminho={"Home/Tutorial"}/>
             <div>
                 Página para tutorial
             </div>

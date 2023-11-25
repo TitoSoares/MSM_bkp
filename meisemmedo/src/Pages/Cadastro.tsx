@@ -3,7 +3,7 @@ import "../Componentes/estyle/estilo.css"
 function Cadastro(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho/>
+            <FuncaoCabecalho caminho={"Home/Cadastro"}/>
             <div className="formatacaoCadastro">
                 <div className="imagemLogo"></div>
                 <div className="cadastro">

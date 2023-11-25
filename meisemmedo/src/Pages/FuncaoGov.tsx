@@ -4,7 +4,7 @@ import FuncaoCabecalho from "../Componentes/Cabecalho";
 function FuncaoGov() {
   return (
     <div className="planoFundo">
-      <FuncaoCabecalho/>
+      <FuncaoCabecalho caminho={"Home/FuncaoGov"}/>
         <div className="DivCenter">
           <div className="DivCenter">
             <div className="CaixaText"></div>
