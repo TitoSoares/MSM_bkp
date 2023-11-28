@@ -5,7 +5,7 @@ function Home(){
         <div className="planoFundoLogin">
             <FuncaoCabecalho caminho={"Home"}/>
             <div className="home">
-
+                
             </div>
         </div>
     )
