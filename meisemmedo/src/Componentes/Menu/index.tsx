@@ -7,6 +7,7 @@ function Menu(){
                 <Link className="Link" to="/tutorial"><div className="menu">Como criar uma MEI?</div></Link>
                 <Link className="Link" to="/gov"><div className="menu">Funções Gov</div></Link>
                 <Link className="Link" to="/gen"><div className="menu">Gerenciamentos</div></Link>
+                <Link className="Link" to="/state"><div className="menu">State</div></Link>
             </div>
         </div>
     )
