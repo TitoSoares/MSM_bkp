@@ -16,22 +16,22 @@ function Cadastro(){
         setNome(event.target.value);
     }
     function handleEmailInput(event: React.ChangeEvent<HTMLInputElement>) {
-        setNome(event.target.value);
+        setEmail(event.target.value);
     }
     function handleCpfInput(event: React.ChangeEvent<HTMLInputElement>) {
-        setNome(event.target.value);
+        setCpf(event.target.value);
     }
     function handleCnpjInput(event: React.ChangeEvent<HTMLInputElement>) {
-        setNome(event.target.value);
+        setCnpj(event.target.value);
     }
     function handleDataInput(event: React.ChangeEvent<HTMLInputElement>) {
-        setNome(event.target.value);
+        setData(event.target.value);
     }
     function handleSenhaInput(event: React.ChangeEvent<HTMLInputElement>) {
-        setNome(event.target.value);
+        setSenha(event.target.value);
     }
     function handleSenhaConfirmacaoInput(event: React.ChangeEvent<HTMLInputElement>) {
-        setNome(event.target.value);
+        setSenhaConfirmacao(event.target.value);
     }
     return(
         <div className="planoFundo">
@@ -39,24 +39,19 @@ function Cadastro(){
             <div className="formatacaoCadastro">
                 <div className="imagemLogo"></div>
                 <div className="cadastro">
-                    <div className="elementoCadastro">Nome:<input></input></div>
-                    <div className="elementoCadastro">Nome:<input></input></div>
+                    <div className="elementoCadastro">Nome:<input type="text" value={nome} onChange={handleNomeInput}></input></div>
+                    <div className="elementoCadastro">Email:<input type="text" value={email} onChange={handleEmailInput} ></input></div>
                 </div>
                 <div className="cadastro">
-                    <div className="elementoCadastro">Nome:<input></input></div>
-                    <div className="elementoCadastro">Nome:<input></input></div>
+                    <div className="elementoCadastro">Cpf:<input type="type" value={cpf} onChange={handleCpfInput}></input></div>
+                    <div className="elementoCadastro">Cnpj:<input type="type" value={cnpj} onChange={handleCnpjInput}></input></div>
                 </div>
                 <div className="cadastro">
-                    <div className="elementoCadastro">Nome:<input></input></div>
-                    <div className="elementoCadastro">Nome:<input></input></div>
+                    <div className="elementoCadastro">Data de nascimento:<input type="text" value={data} onChange={handleDataInput}></input></div>
+                    <div className="elementoCadastro">Senha:<input type="text" value={senha} onChange={handleSenhaInput}></input></div>
                 </div>
                 <div className="cadastro">
-                    <div className="elementoCadastro">Nome:<input></input></div>
-                    <div className="elementoCadastro">Nome:<input></input></div>
-                </div>
-                <div className="cadastro">
-                    <div className="elementoCadastro">Nome:<input></input></div>
-                    <div className="elementoCadastro">Nome:<input></input></div>
+                    <div className="elementoCadastro">Confirmar senha:<input type="text" value={senhaConfirmacao} onChange={handleSenhaConfirmacaoInput}></input></div>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ import Tutorial from './Pages/Tutorial';
 import Login from './Pages/Login';
 import Cadastro from './Pages/Cadastro';
 import NotFound from './Pages/NotFound';
-import State from './Pages/state';
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +21,6 @@ function App() {
         <Route path='/tutorial' element={<Tutorial/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/cadastro' element={<Cadastro/>}></Route>
-        <Route path='/state' element={<State/>}></Route>
       </Routes>
     </div>
   );
