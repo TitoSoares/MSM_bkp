@@ -1,14 +1,18 @@
 import FuncaoCabecalho from "../Componentes/Cabecalho";
 import "../Componentes/estyle/estilo.css"
+import CompAgendaServ from "../ComponentesGerenciamento/CompAgendaServ";
+import CompEntra_Saida from "../ComponentesGerenciamento/CompEntra_Saida";
+import CompHistServ from "../ComponentesGerenciamento/CompHistServ";
+import CompRelatMen from "../ComponentesGerenciamento/CompRelatMen";
 function Gerenciamento(){
+    
     return(
         <div className="planoFundo">
             <FuncaoCabecalho caminho={"Home/Gerenciamento"}/>
-            <div className="caixaFuncGen">Nota Fiscal</div>
-            <div className="caixaFuncGen">Imposto de Renda</div>
-            <div className="caixaFuncGen">Calculo de Imposto</div>
-            <div className="caixaFuncGen">Caixa</div>
-            <div className="caixaFuncGen">Relátorio mensal/anual</div>
+            <div className="caixaFuncGen"><CompHistServ/></div>
+            <div className="caixaFuncGen"><CompRelatMen/></div>
+            <div className="caixaFuncGen"><CompEntra_Saida/></div>
+            <div className="caixaFuncGen">Agendamento<CompAgendaServ/></div>
         </div>
     )
 }

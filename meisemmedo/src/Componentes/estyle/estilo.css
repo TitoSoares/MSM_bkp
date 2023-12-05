@@ -120,18 +120,24 @@
     flex-wrap: wrap;
     justify-content:space-around;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: center;
+    margin-bottom: 30px;
 }
 .elementoCadastro{
-    font-size: 30px;
+    font-size: 20px;
     color:white;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 30%;
     height: 60px;
     background-color:#2B485F;
     border-radius: 50px;
+    
+}
+.caixaCadastro{
+    width: 250px;
+    height: 15px;
 }
 /*=================================================================================================================================*/
 /*LOGIN*/
@@ -249,3 +255,8 @@
     text-decoration:none;
 }
 /*=================================================================================================================================*/
+/*Componentes Genrenciamento*/
+.ConfComponentes{
+    flex-direction:column;
+    display: flex;
+}
