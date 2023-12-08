@@ -9,7 +9,10 @@ import Tutorial from './Pages/Tutorial';
 import Login from './Pages/Login';
 import Cadastro from './Pages/Cadastro';
 import NotFound from './Pages/NotFound';
-import Pai_filho from './Pages/pai_filho';
+import PaginaComponenteAgenda from './Pages/PaginaComponenteAgenda';
+import PaginaComponenteEntradaeSaida from './Pages/PaginaComponenteEntradaeSaida';
+import PaginaComponenteHistorico from './Pages/PaginaComponenteHistorico';
+import PaginaComponenteRelatorio from './Pages/PaginaComponenteRelatorio';
 
 function App() {
   return (
@@ -22,7 +25,12 @@ function App() {
         <Route path='/tutorial' element={<Tutorial/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/cadastro' element={<Cadastro/>}></Route>
-        <Route path='/state' element={<Pai_filho/>}></Route>
+        <Route path='/agenda' element={<PaginaComponenteAgenda/>}></Route>
+        <Route path='/entrada_saida' element={<PaginaComponenteEntradaeSaida/>}></Route>
+        <Route path='/historico' element={<PaginaComponenteHistorico/>}></Route>
+        <Route path='/relatorio' element={<PaginaComponenteRelatorio/>}></Route>
+        
+        
       </Routes>
     </div>
   );

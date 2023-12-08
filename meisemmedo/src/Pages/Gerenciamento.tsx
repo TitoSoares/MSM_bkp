@@ -1,18 +1,15 @@
 import FuncaoCabecalho from "../Componentes/Cabecalho";
 import "../Componentes/estyle/estilo.css"
-import CompAgendaServ from "../ComponentesGerenciamento/CompAgendaServ";
-import CompEntra_Saida from "../ComponentesGerenciamento/CompEntra_Saida";
-import CompHistServ from "../ComponentesGerenciamento/CompHistServ";
-import CompRelatMen from "../ComponentesGerenciamento/CompRelatMen";
+import { Link } from "react-router-dom";
 function Gerenciamento(){
     
     return(
-        <div className="planoFundo">
+        <div className="planoFundoLogin">
             <FuncaoCabecalho caminho={"Home/Gerenciamento"}/>
-            <div className="caixaFuncGen"><CompHistServ/></div>
-            <div className="caixaFuncGen"><CompRelatMen/></div>
-            <div className="caixaFuncGen"><CompEntra_Saida/></div>
-            <div className="caixaFuncGen">Agendamento<CompAgendaServ/></div>
+            <Link className="Link" to="/historico"><div className="caixaFuncGen">Historico de serviços</div></Link>
+            <Link className="Link" to="/relatorio"><div className="caixaFuncGen">Relatorio Mensal</div></Link>
+            <Link className="Link" to="/entrada_saida"><div className="caixaFuncGen">Entrada/Saida</div></Link>
+            <Link className="Link" to="/agenda"><div className="caixaFuncGen">Agendamento</div></Link>
         </div>
     )
 }

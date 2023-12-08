@@ -17,13 +17,13 @@ function AgendaServicos(){
     function handleHoraAgendaInput(event:React.ChangeEvent<HTMLInputElement>){
         setHora(event.target.value)
     }
+    
 
     return(
         <div className="ConfComponentes">
             <div>Nome do Cliente:<input type="text" value={nome} onChange={handleNomeAgendaInput}></input></div>
             <div>Dia:<input type="text" value={data} onChange={handleDataAgendaInput}></input></div>
-            <div>Horário:<input type="text" value={hora} onChange={handleHoraAgendaInput}></input></div>
-            
+            <div>Horário:<input type="text" value={hora} onChange={handleHoraAgendaInput}></input></div><br />
         </div>
     )
 }
