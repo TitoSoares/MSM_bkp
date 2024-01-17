@@ -1,8 +1,9 @@
 
 ## Description
 
-Projeto desenvolvido com alunos, para mostrar funcionalidades do Nest.js
-Projeto consiste em uma simulação de sistema de locação e streaming de filmes e series.
+Projeto desenvolvido pelo alunos Hadassa,Kristopher,Victor para nosso Projeto Integrador.
+O "MeiSemMedo" se consiste em um projeto para auxiliar e ajudar a criar a sua primeira Mei. 
+
 
 [Nest](https://github.com/nestjs/nest) 
 
