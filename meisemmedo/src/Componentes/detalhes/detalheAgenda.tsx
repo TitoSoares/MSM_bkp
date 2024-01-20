@@ -3,6 +3,7 @@ type Props={
     dados:{
         nome:string
         hora:string
+        dia:string
     }
 }
 
@@ -10,7 +11,7 @@ function DetalheAgenda({dados}:Props){
     return(
         <div>
             <div>
-                <div>Nome:{dados.nome} Hora:{dados.hora}</div>
+                <div>Nome:{dados.nome} Dia:{dados.dia} Hora:{dados.hora}</div>
             </div>
         </div>
     )

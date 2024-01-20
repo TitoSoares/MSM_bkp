@@ -4,19 +4,14 @@ function Login(){
     return(
         <div className="planoFundoLogin">
             <div className="logincoluna">
+
                 <div className="textologin">
-                    <div className="textoLogin1">
-                        Mei Sem Medo
-                    </div>
-                    <div className="textoLogin2">
-                        Um Portal para
-                    </div>
-                    <div className="textoLogin3">    
-                        desmestificar 
-                        seu negócio.
+                    <div className="fundoTexto">
+                    MEI SEM MEDO 
+    Um portal para desmestificar seu negócio
+    <div className="img"></div>
                     </div>
                 </div>
-
                 <div className="login">
                     <div className="imagemLogin"></div>
                     <div className="elementoLogin">Login</div>
