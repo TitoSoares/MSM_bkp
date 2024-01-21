@@ -8,6 +8,7 @@ function Home(){
                 <div className="quemsomos">
                 Quem somos?
                 </div>
+                <div className="imgQuemsomos"></div>
             </div>
         </div>
     )
