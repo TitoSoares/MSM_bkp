@@ -1,46 +1,113 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Projeto desenvolvido pelo alunos Hadassa,Kristopher,Victor para nosso Projeto Integrador.
+O "MeiSemMedo" se consiste em um projeto para auxiliar e ajudar a criar a sua primeira Mei. 
 
-In the project directory, you can run:
 
-### `npm start`
+[Nest](https://github.com/nestjs/nest) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Descrição da API
+## Modulo de Usuario
+Caminho para o módulo: ``` /usuarios```
+Métodos do módulo:
+```bash
+Tipo: GET
+caminho: /usuarios/
+Parametros esperados:
+  Body: --
+  Params: --
+Retorno:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+list{id,
+nome,
+cidade,
+email}
+```
 
-### `npm test`
+```bash
+Tipo: Put
+caminho: /usuarios/:id
+Parametros esperados:
+  Body: {
+    nome: string,
+    idade: int,
+    cidade: string,
+    email: string,
+    telefone: string,
+    senha: string
+  }
+  Params: ID_USUARIO
+Retorno:
+{
+  usuario: usuarioAtualizado,
+  message
+}
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+Tipo: DELETE
+caminho: /usuarios/:id
+Parametros esperados:
+  Body: --
+  Params: ID_USUARIO
+Retorno:
+{
+  usuario: usuarioRemovido,
+  message
+}
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+Tipo: Post
+caminho: /usuarios/:id
+Parametros esperados:
+  Body: {
+    nome: string,
+    idade: int,
+    cidade: string,
+    email: string,
+    telefone: string,
+    senha: string
+  }
+  Params: --
+Retorno:
+{
+  id: usuario.id,
+  message
+}
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+```bash
+$ npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Running the app
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# development
+$ npm run start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# watch mode
+$ npm run start:dev
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# production mode
+$ npm run start:prod
+```
 
-## Learn More
+## Support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Stay in touch
+
+- Author - [João Pedro Parella]
+
+
+## License
+
+Nest is [MIT licensed](LICENSE).

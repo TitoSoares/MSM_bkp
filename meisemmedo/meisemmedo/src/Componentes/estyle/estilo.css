@@ -47,14 +47,6 @@
 .imagemMenu:hover{
    background-image: none;
 }
-.imagemLogin{
-    margin-top: 20px;
-    margin-bottom:35px;
-    width: 250px;
-    height:250px;
-    border-radius:50%;
-    background-color: cornflowerblue;
-}
 .imagemLogo{
     border-radius: 25%;
     width: 100px;
@@ -134,7 +126,6 @@
     height: 60px;
     background-color:#2B485F;
     border-radius: 50px;
-    
 }
 .caixaCadastro{
     width: 250px;
@@ -142,56 +133,92 @@
 }
 /*=================================================================================================================================*/
 /*LOGIN*/
-/*.planoFundoLogin{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height:100vh
-}*/
 .logincoluna{
     display: flex;
-    flex-direction: row;
-    height: auto;
+    flex-direction:row;
+    height:100%;
 }
-.textologin{
+.escritaMEI{
+    display: flex;
+    flex-direction:column;
+    flex: 5;
+    font-size: 50px;
+    background-color: #D3D3D3;
+    align-items: center;
+    height: auto;
+    border-right: black solid 1px;
+}
+.fundoTexto{
     display: flex;
     flex-direction: column;
-    flex: 4;
-    font-size: 70px;
-    background-color: #1B4D80;
     align-items: center;
-    height: 100%;
+}
+.txt1{
+    font-size: 73px;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+}
+.txt2{
+    font-size: 27px;
+    width: 100%;
+    height: 100px;
+}
+.txt3{
+    height: 100px;
+    width: 100%;
+    font-size: 27px;
+    margin-bottom: 50px;
 }
 .img{
-    height: 400px;
-    width: 400px;
-    background-image:url("../../../public/MEI_SEM_MEDO__1_-removebg-preview.png") ;
+    width:400px;
+    height:400px;
+    background-image:url("../../../public/Imagem_1_log.png") ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom:100px;
 }
 .login{
+    border-left: black solid 1px;
     align-items: center;
     display: flex;
     flex-direction:column;
-    height: 100%;
+    height:auto;
     flex-wrap: wrap;
     justify-content:space-around;
-    flex: 3;
-    background-color:rgb(249 249, 249);
+    flex:4;
+    background-color:rgb(73, 73, 73);
+}
+.imagemLogin{
+    margin-top: 120px;
+    margin-bottom:35px;
+    width: 250px;
+    height:250px;
+    border-radius:50%;
+    background-image:url("../../../public/Imagem_2_log.png");
+    background-color: white;
+    border: black solid 2px;
 }
 .elementoLogin{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top:30px;
+    margin-bottom: 15px;
     width: 50%;
     height: 55px;
-    background-color:#2B485F;
+    background-color:grey;
     border-radius: 50px;
     font-size: 25px;
+    border: black solid 1px;
+}
+.caixaLogin{
+    margin-top: 12px;
+    height: 25px;
+    width: 210px;
+    background-color:grey;
 }
 .funLogin{
     flex: 1;
-    margin-top: 10%;
+    margin-top:80px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -201,28 +228,27 @@
     margin-bottom: 10px;
 }
 .botaoLogin{
+    border: black solid 1px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: green;
+    background-color: rgb(73, 73, 73);
     height: 50px;
     width: 150px;
     font-size: 25px;
     border-radius: 50px;
 }
 .botaoCancel{
+    border: black solid 1px;
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: chocolate;
+    background-color: rgb(73, 73, 73);
     height: 50px;
     width: 150px;
     border-radius: 50px;
 }
-.fundoTexto{
-    margin-top: 100px;
-    margin-right: 50px;
-    width: 500px;
-    height: 500px;
+.txtBotao{
+    margin-top:5px;
 }
 /*=================================================================================================================================*/
 /*HOME*/

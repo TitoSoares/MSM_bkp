@@ -41,8 +41,8 @@ function Cadastro(){
                     <div className="cadastro">
                         <div className="elementoCadastro">Nome:<input type="text" value={nome} onChange={handleNomeInput}  className="caixaCadastro"></input></div>
                         <div className="elementoCadastro">Email:<input type="text" value={email} onChange={handleEmailInput}  className="caixaCadastro"></input></div>
-                        <div className="elementoCadastro">Cpf:<input type="type" value={cpf} onChange={handleCpfInput}  className="caixaCadastro"></input></div>
-                        <div className="elementoCadastro">Cnpj:<input type="type" value={cnpj} onChange={handleCnpjInput}  className="caixaCadastro"></input></div>
+                        <div className="elementoCadastro">Cpf:<input type="text" value={cpf} onChange={handleCpfInput}  className="caixaCadastro"></input></div>
+                        <div className="elementoCadastro">Cnpj:<input type="text" value={cnpj} onChange={handleCnpjInput}  className="caixaCadastro"></input></div>
                         <div className="elementoCadastro">Data de nascimento:<input type="text" value={data} onChange={handleDataInput} className="caixaCadastro"></input></div>
                         <div className="elementoCadastro">Senha:<input type="text" value={senha} onChange={handleSenhaInput}  className="caixaCadastro"></input></div>
                         <div className="elementoCadastro">Confirmar senha:<input type="text" value={senhaConfirmacao} onChange={handleSenhaConfirmacaoInput}  className="caixaCadastro"></input></div>
