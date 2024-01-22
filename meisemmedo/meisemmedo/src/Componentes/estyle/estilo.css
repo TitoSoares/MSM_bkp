@@ -261,21 +261,61 @@
     flex-wrap: wrap;
     width:100%;
     height:auto;
-    flex-direction:row;
-    background-color: grey
+    flex-direction:column;
+    background-color:#D3D3D3
 }
 .quemsomos{
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#D3D3D3;
     width:100%;
-    height: 300px;
-    font-size: 50px;
+    height:auto;
     margin-top:50px;
+   border-bottom:1px black solid;
+   padding-bottom:5px;
+}
+.escritaQuemSomos{
+    margin-right: 550px;
+    width: 500px;
+    margin-top: 90px;
     font-family: 'Calibri';
+    height: 78px;
+    font-size: 55px;
+    background-color: #D3D3D3;
 }
 .imgQuemsomos{
+    margin-right:200px;
     background-image:url("../../../public/Imagem_3_home.png");
-    height: 307px;
+    height: 308px;
     width: 400px;
+}
+.meiSemMedo{
+    border-bottom:1px black solid;
+    padding-left:30px;
+    font-family:'Calibri';
+    font-size:90px;
+    height:auto;
+    width:100%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.textoMei{
+    display: flex;
+    flex-direction: row;
+}
+.txtMEI{
+    background-color: red;
+    width: 45%;
+    height: 500px;
+    font-size: 23px;
+    font-family: 'Calibri';
+}
+.imgMEI{
+    background-color: blue;
+    width: 55%;
+    height: 500px;
 }
 /*=================================================================================================================================*/
 /*PLANO DE FUNDO*/
