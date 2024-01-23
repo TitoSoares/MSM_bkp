@@ -259,7 +259,7 @@
 .home{
     display: flex;
     flex-wrap: wrap;
-    width:100%;
+    width:auto;
     height:auto;
     flex-direction:column;
     background-color:#D3D3D3
@@ -281,7 +281,7 @@
     width: 450px;
     margin-top: 90px;
     font-family: 'Calibri';
-    height: 78px;
+    height: 238px;
     font-size: 55px;
     background-color: #D3D3D3;
 }
@@ -293,11 +293,11 @@
 }
 .meiSemMedo{
     border-bottom:1px black solid;
-    padding-left:30px;
+    padding-left:90px;
     font-family:'Calibri';
     font-size:90px;
     height:auto;
-    width:100%;
+    width:(100%-90px);
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -306,18 +306,20 @@
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
 }
 .txtMEI{
-    background-color: red;
-    width: 45%;
-    height: 500px;
-    font-size: 23px;
-    font-family: 'Calibri';
+    width:auto;
+    height:auto;
+    font-size: 22px;
+    font-family:'Calibri';
+    margin-left: 200px;
 }
 .imgMEI{
-    background-color: blue;
-    width: 55%;
-    height: 500px;
+    margin-right: 200px;
+    background-image: url("../../../public/Imagem_4_home.png");
+    width: 600px;
+    height: 433px;
 }
 /*=================================================================================================================================*/
 /*PLANO DE FUNDO*/
