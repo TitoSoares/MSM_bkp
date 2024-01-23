@@ -2,18 +2,16 @@
 type Props={
     dados:{
         nomeCliente:string
-        data:string
         telefone:string
+        data:string
     }
 }
 
 function DetalheHistorico({dados}:Props){
     return(
-        <div>
-            <div>
-                <div>Nome:{dados.nomeCliente} Telefone:{dados.telefone} Data:{dados.data}</div>
-            </div>
-        </div>
+        <div className="DivLista">
+            <div className="listas">Nome:{dados.nomeCliente} <br /> Telefone:{dados.telefone} <br /> Data:{dados.data}</div>
+        </div>  
     )
 }
 export default DetalheHistorico

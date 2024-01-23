@@ -265,6 +265,7 @@
     background-color:#D3D3D3
 }
 .quemsomos{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -277,7 +278,7 @@
 }
 .escritaQuemSomos{
     margin-right: 550px;
-    width: 500px;
+    width: 450px;
     margin-top: 90px;
     font-family: 'Calibri';
     height: 78px;
@@ -285,7 +286,7 @@
     background-color: #D3D3D3;
 }
 .imgQuemsomos{
-    margin-right:200px;
+    margin-right:90px;
     background-image:url("../../../public/Imagem_3_home.png");
     height: 308px;
     width: 400px;
@@ -302,6 +303,7 @@
     flex-direction: row;
 }
 .textoMei{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
 }
@@ -339,14 +341,14 @@
 /*=================================================================================================================================*/
 .DivLista{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     flex-wrap: wrap;
     width:100%;
     height:auto;
 }
 .listas{
-    width: 130px;
-    height: 60px;
+    width:auto;
+    height:auto;
     border: 1px black solid;
 }
