@@ -1,5 +1,5 @@
 import { Controller, Post } from "@nestjs/common";
-import { Body, Delete, Get, Param, Put } from "@nestjs/common/decorators";
+import { Body, Delete, Get, Param, Put } from "@nestjs/common";
 import { CriaUsuariosDTO } from "./dto/usuarios.dto";
 import { UsuariosEntity } from "./usuario.entity";
 import {v4  as uuid} from 'uuid'

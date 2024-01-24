@@ -1,8 +1,8 @@
 import { IsString } from "class-validator";
 import { EmailUnico } from "../validacao/email-unico.validator";
-import { IsNotEmpty } from "class-validator/types/decorator/common/IsNotEmpty";
-import { IsEmail } from "class-validator/types/decorator/string/IsEmail";
-import { MinLength } from "class-validator/types/decorator/string/MinLength";
+import { IsNotEmpty } from "class-validator";
+import { IsEmail } from "class-validator";
+import { MinLength } from "class-validator";
 
 export class CriaUsuariosDTO{
     @IsString()
