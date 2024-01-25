@@ -1,5 +1,4 @@
 import { useState } from "react"
-import FuncaoCabecalho from "../Componentes/Cabecalho"
 import "../Componentes/estyle/estilo.css"
 function Login(){
     const[login,setLogin]=useState("")

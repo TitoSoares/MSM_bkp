@@ -13,6 +13,7 @@ import PaginaComponenteAgenda from './Pages/PaginaComponenteAgenda';
 import PaginaComponenteEntradaeSaida from './Pages/PaginaComponenteEntradaeSaida';
 import PaginaComponenteHistorico from './Pages/PaginaComponenteHistorico';
 import PaginaComponenteRelatorio from './Pages/PaginaComponenteRelatorio';
+import Requisicoes from './Pages/requisicoes';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/entrada_saida' element={<PaginaComponenteEntradaeSaida/>}></Route>
         <Route path='/historico' element={<PaginaComponenteHistorico/>}></Route>
         <Route path='/relatorio' element={<PaginaComponenteRelatorio/>}></Route>
+        <Route path='/requisicoes' element={<Requisicoes/>}></Route>
         
         
       </Routes>
