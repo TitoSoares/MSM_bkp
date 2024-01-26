@@ -308,15 +308,18 @@
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    border-bottom: black 1px solid
 }
 .txtMEI{
+    margin-top: 2%;
     width:40%;
     height:auto;
     font-size: 20px;
     font-family:'Calibri';
 }
 .imgMEI{
-    margin-right: 200px;
+    margin-top: 2%;
+    margin-right: 5%;
     background-image: url("../../../public/Imagem_4_home.png");
     width: 600px;
     height: 433px;
