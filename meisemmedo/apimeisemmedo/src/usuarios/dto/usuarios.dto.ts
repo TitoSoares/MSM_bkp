@@ -3,6 +3,7 @@ import { EmailUnico } from "../validacao/email-unico.validator";
 import { IsNotEmpty } from "class-validator";
 import { IsEmail } from "class-validator";
 import { MinLength } from "class-validator";
+import { SenhaForte } from "../validacao/strongpass.valitor";
 
 export class CriaUsuariosDTO{
     @IsString()
@@ -23,5 +24,6 @@ export class CriaUsuariosDTO{
     dataNasc:string
 
     @MinLength(8,{message:"Senha inválida, tente novamente"})
+    @SenhaForte({message:"Senha muito fraca"})
     senha:string
 }

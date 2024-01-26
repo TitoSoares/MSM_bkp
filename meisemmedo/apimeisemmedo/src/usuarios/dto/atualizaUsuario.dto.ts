@@ -1,5 +1,6 @@
 import { IsEmail, IsNotEmpty, IsOptional, IsString, MinLength } from "class-validator";
 import { EmailUnico } from "../validacao/email-unico.validator";
+import { SenhaForte } from "../validacao/strongpass.valitor";
 
 export class AlteraUsuarioDTO{
     @IsString()
@@ -26,5 +27,6 @@ export class AlteraUsuarioDTO{
 
     @MinLength(8,{message: "Senha precisa de pelo menos 8 caracteres"})
     @IsOptional()
+    @SenhaForte({message:"Senha muito fraca"})
     senha:string
 }   

@@ -5,6 +5,7 @@ export class ListaUsuarioDTO{
         readonly email:string,
         readonly cpf:string,
         readonly cnpj:string,
-        readonly dataNasc:string
+        readonly dataNasc:string,
+        readonly senha:string
     ){}
 }

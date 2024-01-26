@@ -5,8 +5,8 @@ import { UsuariosEntity } from "./usuario.entity";
 import {v4  as uuid} from 'uuid'
 import { UsuariosArmazenados } from "./usuarios.dm";
 import { AlteraUsuarioDTO } from "./dto/atualizaUsuario.dto";
-import { get } from "http";
 import { ListaUsuarioDTO } from "./dto/listaUsuario.dto";
+import { LoginUsuarioDTO } from "./dto/loginUsuario.dto";
 
 @Controller('/usuarios')
 export class UsuariosController{
@@ -42,7 +42,8 @@ export class UsuariosController{
                 usuario.email,
                 usuario.cpf,
                 usuario.cnpj,
-                usuario.dataNasc
+                usuario.dataNasc,
+                usuario.senha
             )
         )
         return listaRetorno
@@ -53,6 +54,15 @@ export class UsuariosController{
         return{
             usuario:usuarioRemovido,
             message:"Usuário removido"
+        }
+    }
+    @Get('/login')
+    async Login(@Body() dadosUsuario:LoginUsuarioDTO){
+    var login = this.claUsuariosArmazenados.validarLogin(dadosUsuario.email,dadosUsuario.senha)
+    return{
+        usuario: login[1],
+            status: login[1],
+            message: login[1] ? "Login efetuado" : "Usuario ou senha inválidos"
         }
     }
 }
