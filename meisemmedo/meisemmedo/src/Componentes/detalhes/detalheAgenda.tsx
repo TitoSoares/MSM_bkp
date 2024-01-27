@@ -1,18 +1,22 @@
 
 type Props={
     dados:{
-        nome:string
+        id:string
+        data:string
         hora:string
-        dia:string
+        atividade:string
     }
 }
 
 function DetalheAgenda({dados}:Props){
     return(
-        <div>
-            <div>
-                <div>Nome:{dados.nome} Dia:{dados.dia} Hora:{dados.hora}</div>
-            </div>
+        <div className="lista">
+                <td>
+                    <tr>Nome:{dados.id}</tr>
+                    <tr>Data:{dados.data}</tr>
+                    <tr>Hora:{dados.hora}</tr>
+                    <tr>Atividade:{dados.atividade}</tr>
+                </td>
         </div>
     )
 }

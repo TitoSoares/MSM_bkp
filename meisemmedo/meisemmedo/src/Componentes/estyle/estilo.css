@@ -324,6 +324,45 @@
     width: 600px;
     height: 433px;
 }
+.textofinal{
+    height:auto;
+    width:100%;
+    font-size: 90px;
+    font-family:'Calibri';
+    
+}
+.botaoLogar_Cadastrar{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.DivbotaoLogin{
+    width:auto;
+    height:auto;
+    margin-right: 100px;
+}
+.botao1{
+    width:400px;
+    height:100px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:rgb(150, 150, 150);
+}
+.DivbotaoCadastro{
+    margin-left: 100px;
+    width:auto;
+    height:auto;
+}
+.botao2{
+    font-size: 20px;
+    width:400px;
+    height:100px;
+    border-radius: 50px;
+    background-color:rgb(150, 150, 150);
+}
 /*=================================================================================================================================*/
 /*PLANO DE FUNDO*/
 .planoFundoLogin{
@@ -338,22 +377,27 @@
     text-decoration:none;
 }
 /*=================================================================================================================================*/
-/*Componentes Genrenciamento*/
+/*AGENDA*/
+/*Componente Agenda*/
 .ConfComponentes{
     flex-direction:column;
     display: flex;
 }
 /*=================================================================================================================================*/
-.DivLista{
+/*Listas dos Componentes*/
+.listagem{
     display: flex;
-    flex-direction: column;
-    justify-content:center;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    width:100%;
-    height:auto;
 }
-.listas{
-    width:auto;
-    height:auto;
-    border: 1px black solid;
+.lista{
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    font-size: 20px;
+    color: black;
 }
+/*=================================================================================================================================*/
+/*=================================================================================================================================*/

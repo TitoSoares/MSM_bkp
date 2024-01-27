@@ -4,13 +4,13 @@ import CompEntra_Saida from "../ComponentesGerenciamento/CompEntra_Saida"
 
 
 let lista=[
-    {entrada:'100', saida:'100'},
-    {entrada:'100', saida:'100'},
-    {entrada:'100', saida:'100'},
-    {entrada:'100', saida:'100'},
-    {entrada:'100', saida:'100'},
-    {entrada:'100', saida:'100'},
-    {entrada:'100', saida:'100'}
+    {id:"",entrada:'100', saida:'100',liquido:""},
+    {id:"",entrada:'100', saida:'100',liquido:""},
+    {id:"",entrada:'100', saida:'100',liquido:""},
+    {id:"",entrada:'100', saida:'100',liquido:""},
+    {id:"",entrada:'100', saida:'100',liquido:""},
+    {id:"",entrada:'100', saida:'100',liquido:""},
+    {id:"",entrada:'100', saida:'100',liquido:""}
 ]
 
 function EntradaSaida(){
@@ -19,9 +19,9 @@ function EntradaSaida(){
         <div className="planoFundoLogin">
         <FuncaoCabecalho caminho={"Entrada e Saida"}/>
         <CompEntra_Saida/><br />
-        <div className="DivLista">
+        <div className="listagem">
                 {lista.map((item, index)=>(
-                <div className="listas"><DetalheEntradaSaida key={index} dados={item}/></div>
+                <DetalheEntradaSaida key={index} dados={item}/>
                 ))}
             </div>  
         </div>

@@ -7,7 +7,10 @@ type Props={
 function Relatorio({dados}:Props){
     return(
         <div>
-            <div>Entradas:{dados.entrada} Saida:{dados.saida}</div>
+            <td>
+                <tr>Entradas:{dados.entrada}</tr> 
+                <tr>Saida:{dados.saida}</tr>
+            </td>
         </div>
     )
 }
