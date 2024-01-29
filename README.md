@@ -1,10 +1,10 @@
 
 ## Description
 
-Projeto desenvolvido com alunos, para mostrar funcionalidades do Nest.js
-Projeto consiste em uma simulação de sistema de locação e streaming de filmes e series.
-Projeto desenvolvido pelo alunos: Kristopher, Victor para nosso Projeto Integrador.
-O "MeiSemMedo" se consiste em um projeto para auxiliar e ajudar a criar a sua primeira Mei. 
+O Projeto MeiSemMedo é uma ideia desenvolvida por alunos do curso de Desenvolvedor Full-Stack, com o objetivo de demonstrar as funcionalidades do Nest.js.
+O projeto consiste em uma plataforma de auxílio à rotina de um Microempreendedor Individual em sua primeira MEI, proporcionando um sistema de cadastro de clientes,
+cadastro de serviços em formato de agenda semanal e um registro de renda com as entradas e saídas devidamente cadastradas.
+O Projeto foi desenvolvido pelos alunos Kristopher e Victor, para o nosso Projeto Integrador.
 
 
 [Nest](https://github.com/nestjs/nest) 
