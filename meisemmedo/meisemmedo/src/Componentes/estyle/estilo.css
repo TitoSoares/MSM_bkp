@@ -38,10 +38,11 @@
 .imagemMenu{
     margin-top:10px;
     margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
+    width: 104px;
+    height: 104px;
     border-radius:50%;
-    background-color: red;
+    background-image:url("../../../public/imagem_5_cabecalho.png");
+    background-color: white;
     border:2px white solid;
 }
 .imagemMenu:hover{
@@ -236,7 +237,7 @@
     border: black solid 1px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(73, 73, 73);
+    background-color: grey;
     height: 50px;
     width: 150px;
     font-size: 25px;
@@ -247,13 +248,13 @@
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(73, 73, 73);
+    background-color:grey;
     height: 50px;
     width: 150px;
     border-radius: 50px;
 }
 .txtBotao{
-    margin-top:5px;
+    margin-top:8px;
 }
 /*=================================================================================================================================*/
 /*HOME*/
@@ -350,6 +351,7 @@
     font-size: 20px;
     border-radius: 50px;
     background-color:rgb(150, 150, 150);
+    border: 1px black solid;
 }
 .DivbotaoCadastro{
     margin-left: 100px;
@@ -362,14 +364,15 @@
     height:100px;
     border-radius: 50px;
     background-color:rgb(150, 150, 150);
+    border: 1px black solid;
 }
 /*=================================================================================================================================*/
 /*PLANO DE FUNDO*/
 .planoFundoLogin{
-    background-color: grey;
+    background-color: #D3D3D3;
 }
 .planoFundo{
-    background-color: grey;
+    background-color: #D3D3D3;
 }
 /*=================================================================================================================================*/
 /*LINK*/
@@ -400,4 +403,12 @@
     color: black;
 }
 /*=================================================================================================================================*/
+/*TUTORIAL*/
+.paginaTutorial{
+    background-color: red;
+    width: 1897px;
+    height: 980px;
+    display: flex;
+    background-image: url("../../../public/1º\ Passo\ Criar\ uma\ conta\ Gov.com.br.png");
+}
 /*=================================================================================================================================*/

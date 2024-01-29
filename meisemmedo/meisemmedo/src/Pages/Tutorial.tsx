@@ -4,8 +4,8 @@ function Tutorial(){
     return(
         <div className="planoFundo">
             <FuncaoCabecalho caminho={"Home/Tutorial"}/>
-            <div>
-                Página para tutorial
+            <div className="paginaTutorial">
+                
             </div>
         </div>
     )
