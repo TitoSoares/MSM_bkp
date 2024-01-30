@@ -7,12 +7,14 @@ import { UsuariosArmazenados } from "./usuarios.dm";
 import { AlteraUsuarioDTO } from "./dto/atualizaUsuario.dto";
 import { ListaUsuarioDTO } from "./dto/listaUsuario.dto";
 import { LoginUsuarioDTO } from "./dto/loginUsuario.dto";
+import { ApiResponse, ApiResponseProperty } from "@nestjs/swagger";
 
 @Controller('/usuarios')
 export class UsuariosController{
     constructor(private claUsuariosArmazenados:UsuariosArmazenados){
-        
     }
+    @ApiResponse({status:200, description:"A operação foi um sucesso"})
+    @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
     @Post()
     async criaUsuario(@Body() dadosUsuarios:CriaUsuariosDTO){
         var usuarios=new UsuariosEntity(uuid(),dadosUsuarios.nome,dadosUsuarios.email,dadosUsuarios.cpf,dadosUsuarios.cnpj,dadosUsuarios.dataNasc,dadosUsuarios.senha)
@@ -23,7 +25,8 @@ export class UsuariosController{
         }
         return retorno
     }
-
+    @ApiResponse({status:200, description:"A operação foi um sucesso"})
+    @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
     @Put("/:id")
     async atualizaUsuario(@Param('id') id:string,@Body() novosDados:AlteraUsuarioDTO){
         const usuarioAtualizado=await this.claUsuariosArmazenados.atualizaUsuario(id, novosDados)
@@ -32,6 +35,8 @@ export class UsuariosController{
             message:"Usuáio atulizado"
         }   
     }
+    @ApiResponse({status:200, description:"A operação foi um sucesso"})
+    @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
     @Get()
     async RetornoUsuarios(){
         const usuariosListados=await this.claUsuariosArmazenados.Usuarios;
@@ -48,6 +53,8 @@ export class UsuariosController{
         )
         return listaRetorno
     }
+    @ApiResponse({status:200, description:"A operação foi um sucesso"})
+    @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
     @Delete('/:id')
     async removeUsuario(@Param("id")id:string){
         const usuarioRemovido=await this.claUsuariosArmazenados.removeUsuario(id)
@@ -56,6 +63,8 @@ export class UsuariosController{
             message:"Usuário removido"
         }
     }
+    @ApiResponse({status:200, description:"A operação foi um sucesso"})
+    @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
     @Get('/login')
     async Login(@Body() dadosUsuario:LoginUsuarioDTO){
     var login = this.claUsuariosArmazenados.validarLogin(dadosUsuario.email,dadosUsuario.senha)
