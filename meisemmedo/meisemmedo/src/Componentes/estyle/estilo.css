@@ -146,7 +146,6 @@
 .caixa9:hover{
     background-image:url("../../../public/Transpartente-9_FunGov.png");
 }
-
 /*=================================================================================================================================*/
 /*GERENCIAMENTO*/
 /*Funções*/
@@ -455,27 +454,36 @@
     text-decoration:none;
 }
 /*=================================================================================================================================*/
-/*AGENDA*/
-/*Componente Agenda*/
+/*Configuração dos inputs*/
 .ConfComponentes{
     flex-direction:column;
     display: flex;
+    align-items: center;
+}
+.caixaInput{
+    width:100%;
+    height: 25px;
 }
 /*=================================================================================================================================*/
 /*Listas dos Componentes*/
 .listagem{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
 }
 .lista{
+    background-color:rgb(150, 150, 150);;
     border: 1px solid black;
-    width: auto;
+    width:70%;
     height: auto;
-    background-color: gray;
     font-size: 20px;
     color: black;
+}
+.tiraFormatacao{
+    list-style-type: none;
+    padding-left: 1px;
 }
 /*=================================================================================================================================*/
 /*TUTORIAL*/

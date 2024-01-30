@@ -11,12 +11,12 @@ type Props={
 function DetalheHistorico({dados}:Props){
     return(
         <div className="lista">
-            <td>
-                <tr>ID:{dados.id}</tr>
-                <tr>Data de atendimento:{dados.data}</tr>
-                <tr>Horario de atendimento:{dados.hora}</tr>
-                <tr>Atividade realizada:{dados.atividade}</tr>
-            </td>
+            <ul className="tiraFormatacao">
+                <li>ID:{dados.id}</li>
+                <li>Data de atendimento:{dados.data}</li>
+                <li>Horario de atendimento:{dados.hora}</li>
+                <li>Atividade realizada:{dados.atividade}</li>
+            </ul>
         </div>  
     )
 }

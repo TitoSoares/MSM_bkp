@@ -8,8 +8,8 @@ function HistoricoServicos(){
     }
 
     return(
-        <div>
-            <div>Coloque o ID do cliente:<input type="text" value={cliente} onChange={handleClienteInput}></input></div>
+        <div className="ConfComponentes">
+            <div className="caixaInput">Coloque o ID do cliente para saber o histórico de atendimento:<input type="text" value={cliente} onChange={handleClienteInput}></input></div>
         </div>
     )
 }

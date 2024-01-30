@@ -7,6 +7,7 @@ function AgendaServicos(){
     const [nome, setNome]=useState("")
     const [data, setData]=useState("")
     const [hora, setHora]=useState("")
+    const [atividade, setAtividade]=useState("")
 
     function handleNomeAgendaInput(event:React.ChangeEvent<HTMLInputElement>){
         setNome(event.target.value)
@@ -17,13 +18,17 @@ function AgendaServicos(){
     function handleHoraAgendaInput(event:React.ChangeEvent<HTMLInputElement>){
         setHora(event.target.value)
     }
+    function handleAtividadeAgendaInput(event:React.ChangeEvent<HTMLInputElement>){
+        setAtividade(event.target.value)
+    }
     
 
     return(
         <div className="ConfComponentes">
-            <div>Nome do Cliente:<input type="text" value={nome} onChange={handleNomeAgendaInput}></input></div>
-            <div>Dia:<input type="text" value={data} onChange={handleDataAgendaInput}></input></div>
-            <div>Horário:<input type="text" value={hora} onChange={handleHoraAgendaInput}></input></div><br />
+            <div className="caixaInput">Nome do Cliente:<input type="text" value={nome} onChange={handleNomeAgendaInput}></input></div>
+            <div className="caixaInput">Dia:<input type="text" value={data} onChange={handleDataAgendaInput}></input></div>
+            <div className="caixaInput">Horário:<input type="text" value={hora} onChange={handleHoraAgendaInput}></input></div>
+            <div className="caixaInput">Atividade:<input type="text" value={atividade} onChange={handleAtividadeAgendaInput}></input></div><br />
         </div>
     )
 }
