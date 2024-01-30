@@ -405,10 +405,20 @@
 /*=================================================================================================================================*/
 /*TUTORIAL*/
 .paginaTutorial{
-    background-color: red;
-    width: 1897px;
-    height: 980px;
+    width: auto;
+    height: auto;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.primeiraImag{
     background-image: url("../../../public/PrimeiraImageTutorial.png");
+    height: 980px;
+    width: 1897px;
+}
+.segundaImag{
+    background-image: url("../../../public/SegundaImageTutorial.png");
+    height: 980px;
+    width: 1897px;
 }
 /*=================================================================================================================================*/

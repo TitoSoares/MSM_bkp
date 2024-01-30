@@ -11,7 +11,7 @@ function DetalheEntradaSaida({dados}: Props){
     return(
         <div className="lista">
             <td>
-                <tr>ID:{dados.id}</tr>    
+                <tr>ID:{dados.id}</tr>   
                 <tr>Entrada:{dados.entrada}</tr>
                 <tr>Saida:{dados.saida}</tr> 
                 <tr>Liquido:{dados.liquido}</tr> 
