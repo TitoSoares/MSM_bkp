@@ -25,8 +25,8 @@ function Login(){
                 </div>
                 <div className="login">
                     <div className="imagemLogin"></div>
-                    <div className="elementoLogin">Login: <input type="text" value={login} onChange={handleLoginInput} className="caixaLogin"></input></div>
-                    <div className="elementoLogin">Senha: <input type="text" value={senha} onChange={handleSenhaInput} className="caixaLogin"></input></div>
+                    <div className="elementoLogin">Login:<input type="text" value={login} onChange={handleLoginInput} className="caixaLogin"></input></div>
+                    <div className="elementoLogin">Senha:<input type="text" value={senha} onChange={handleSenhaInput} className="caixaLogin"></input></div>
                     <div className="funLogin">
                         <div className="botaoLogin"><div className="txtBotao">Logar</div></div>
                         <div className="botaoCancel"><div className="txtBotao">Cancelar</div></div>

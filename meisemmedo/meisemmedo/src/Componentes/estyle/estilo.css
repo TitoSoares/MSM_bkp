@@ -65,13 +65,88 @@
     justify-content:space-around;
 }
 /*Caixa de texto*/
-.CaixaText{
-    border-radius: 25%;
-    background-color:#122029;
-    width: 286px;
-    height:336px;
-    margin-bottom: 50px;
+.caixa1{
+    background-image: url("../../../public/Emissão\ de\ comprovante_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
 }
+.caixa2{
+    background-image: url("../../../public/Relatorio\ Mensal\ de\ Receitas\ Brutas_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa3{
+    background-image: url("../../../public/Declaração\ Anual\ de\ Faturamento_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa4{
+    background-image: url("../../../public/Nota\ Fiscal_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa5{
+    background-image: url("../../../public/Ceridões\ e\ Comprovantes_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa6{
+    background-image: url("../../../public/Programa\ de\ Simplicação\ do\ Acesso\ a\ Produtos_FuvGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa7{
+    background-image: url("../../../public/Contratação\ de\ Empregados_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa8{
+    background-image: url("../../../public/Registro\ no\ Cadastur_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa9{
+    background-image: url("../../../public/Baixa\ da\ Empresa_FunGov.png");
+    width: 300px;
+    height:400px;
+    border-radius: 10%;
+}
+.caixa1:hover{
+    background-image:url("../../../public/Transpartente-1_FunGov.png");
+}
+.caixa2:hover{
+    background-image:url("../../../public/Transpartente-2_FunGov.png");
+}
+.caixa3:hover{
+    background-image:url("../../../public/Transpartente-3_FunGov.png");
+}
+.caixa4:hover{
+    background-image:url("../../../public/Transpartente-4_FunGov.png");
+}
+.caixa5:hover{
+    background-image:url("../../../public/Transpartente-5_FunGov.png");
+}
+.caixa6:hover{
+    background-image:url("../../../public/Transpartente-6_FunGov.png");
+}
+.caixa7:hover{
+    background-image:url("../../../public/Transpartente-7_FunGov.png");
+}
+.caixa8:hover{
+    background-image:url("../../../public/Transpartente-8_FunGov.png");
+}
+.caixa9:hover{
+    background-image:url("../../../public/Transpartente-9_FunGov.png");
+}
+
 /*=================================================================================================================================*/
 /*GERENCIAMENTO*/
 /*Funções*/
