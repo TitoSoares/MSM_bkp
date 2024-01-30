@@ -18,7 +18,7 @@ function Historico(){
             <CompHistServ/><br />
             <div className="listagem">
                 {lista.map((item, index)=>(  
-                    <div><DetalheHistorico key={index} dados={item}/></div>
+                    <DetalheHistorico key={index} dados={item}/>
                 ))}
             </div>  
         </div>

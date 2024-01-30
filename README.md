@@ -160,7 +160,6 @@ Tipo: Put
 caminho: /agenda/:id
 Parametros esperados:
   Body: {
-    id_agenda:string,
     data:date,
     hora:date,
     atividade:string

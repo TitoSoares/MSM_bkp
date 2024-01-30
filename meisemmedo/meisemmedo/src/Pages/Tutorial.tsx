@@ -5,7 +5,8 @@ function Tutorial(){
         <div className="planoFundo">
             <FuncaoCabecalho caminho={"Home/Tutorial"}/>
             <div className="paginaTutorial">
-                
+                <div className="primeiraImag"></div>
+                <div className="segundaImag"></div>
             </div>
         </div>
     )
