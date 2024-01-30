@@ -386,16 +386,7 @@
     flex-direction:column;
     display: flex;
 }
-/*Agenda*/
-.agenda{
-    border: 1px solid black;
-    width: auto;
-    height: auto;
-    background-color: gray;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    display:flex;
-}
+
 /*=================================================================================================================================*/
 /*Listas dos Componentes*/
 .listagem{
