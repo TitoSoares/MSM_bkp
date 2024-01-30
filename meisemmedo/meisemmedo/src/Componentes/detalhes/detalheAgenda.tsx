@@ -10,13 +10,13 @@ type Props={
 
 function DetalheAgenda({dados}:Props){
     return(
-        <div className="lista">
-                <td>
-                    <tr>Nome:{dados.id}</tr>
-                    <tr>Data:{dados.data}</tr>
-                    <tr>Hora:{dados.hora}</tr>
-                    <tr>Atividade:{dados.atividade}</tr>
-                </td>
+        <div className="agenda">
+                <ul className="Formatacaolista">
+                    <li>Nome:{dados.id}</li>
+                    <li>Data:{dados.data}</li>
+                    <li>Hora:{dados.hora}</li>
+                    <li>Atividade:{dados.atividade}</li>
+                </ul>
         </div>
     )
 }
