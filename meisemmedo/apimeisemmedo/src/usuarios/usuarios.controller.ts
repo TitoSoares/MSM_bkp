@@ -7,9 +7,10 @@ import { UsuariosArmazenados } from "./usuarios.dm";
 import { AlteraUsuarioDTO } from "./dto/atualizaUsuario.dto";
 import { ListaUsuarioDTO } from "./dto/listaUsuario.dto";
 import { LoginUsuarioDTO } from "./dto/loginUsuario.dto";
-import { ApiResponse, ApiResponseProperty } from "@nestjs/swagger";
+import { ApiResponse, ApiResponseProperty, ApiTags } from "@nestjs/swagger";
 
 @Controller('/usuarios')
+@ApiTags('usuarios')
 export class UsuariosController{
     constructor(private claUsuariosArmazenados:UsuariosArmazenados){
     }

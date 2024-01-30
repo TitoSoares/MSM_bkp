@@ -42,11 +42,11 @@
     height: 104px;
     border-radius:50%;
     background-image:url("../../../public/imagem_5_cabecalho.png");
-    background-color: white;
+    background-color:grey;
     border:2px white solid;
 }
 .imagemMenu:hover{
-   background-image: none;
+   background-color:rgb(155, 155, 155);
 }
 .imagemLogo{
     border-radius: 25%;
@@ -484,6 +484,9 @@
 .tiraFormatacao{
     list-style-type: none;
     padding-left: 1px;
+}
+.unidadeLista{
+   margin-top: 10px;
 }
 /*=================================================================================================================================*/
 /*TUTORIAL*/
