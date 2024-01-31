@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Gerenciamento(){
     
     return(
-        <div className="planoFundoLogin">
+        <div className="planoFundoInfinito">
             <FuncaoCabecalho caminho={"Home/Gerenciamento"}/>
             <Link className="Link" to="/historico"><div className="caixaFuncGen">Historico de serviços</div></Link>
             <Link className="Link" to="/relatorio"><div className="caixaFuncGen">Relatorio Mensal</div></Link>

@@ -9,9 +9,9 @@ function NotFound(){
     }
 
     return(
-        <div className="notfound">
+        <div className="notFound">
 
-          <button className="botaonotfound" onClick={handleClick}>Home</button>
+          <button className="botaoNotFound" onClick={handleClick}>Home</button>
         
         </div>
     )

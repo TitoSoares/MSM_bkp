@@ -3,7 +3,7 @@ import FuncaoCabecalho from "../Componentes/Cabecalho";
 import "../Componentes/estyle/estilo.css"
 function Home(){
     return(
-        <div className="planoFundoLogin">
+        <div className="planoFundo">
             <FuncaoCabecalho caminho={"Home"}/>
             <div className="home">
                 <div className="quemsomos">

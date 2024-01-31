@@ -16,7 +16,7 @@ let lista=[
 
 function Agenda(){
     return(
-        <div className="planoFundoLogin">
+        <div className="planoFundo">
             <FuncaoCabecalho caminho={"Agenda"}/>
             <CompAgendaServ/><br />
             <br />

@@ -34,7 +34,7 @@ function Cadastro(){
         setSenhaConfirmacao(event.target.value);
     }
     return(
-        <div className="planoFundo">
+        <div className="planoFundoInfinito">
             <FuncaoCabecalho caminho={"Home/Cadastro"}/>
             <div className="formatacaoCadastro">
                 <div className="imagemLogo"></div>

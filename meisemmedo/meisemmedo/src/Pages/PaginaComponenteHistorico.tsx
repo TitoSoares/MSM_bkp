@@ -13,7 +13,7 @@ let lista=[
 ]
 function Historico(){
     return(
-        <div className="planoFundoLogin">
+        <div className="planoFundo">
             <FuncaoCabecalho caminho={"Historico"}/>
             <CompHistServ/><br />
             <div className="listagem">

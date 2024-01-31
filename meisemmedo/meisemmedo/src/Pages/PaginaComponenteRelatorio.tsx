@@ -13,7 +13,7 @@ let lista=[
 ]
 function Relatorio(){
     return(
-        <div className="planoFundoLogin">
+        <div className="planoFundo">
             <FuncaoCabecalho caminho={"Relátorio"}/>
                 <div className="listagem">
                     {lista.map((item, index)=>(

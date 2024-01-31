@@ -11,7 +11,7 @@ type Props={
 function DetalheAgenda({dados}:Props){
     return(
         <div className="lista">
-                <ul className="Formatacaolista">
+                <ul className="tiraFormatacao">
                     <li>Nome:{dados.id}</li>
                     <li>Data:{dados.data}</li>
                     <li>Hora:{dados.hora}</li>
