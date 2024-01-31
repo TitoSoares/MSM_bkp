@@ -15,12 +15,19 @@ function Historico(){
     return(
         <div className="planoFundo">
             <FuncaoCabecalho caminho={"Historico"}/>
-            <CompHistServ/><br />
-            <div className="listagem">
-                {lista.map((item, index)=>(  
-                    <DetalheHistorico key={index} dados={item}/>
-                ))}
-            </div>  
+            <div className="Controle">
+                <CompHistServ/><br />
+                <div className="botaoRespostas">
+                    <div><button className="botaosCadastro">Enviar</button></div>
+                    <div><button className="botaosCadastro">Cancelar</button></div>
+                </div>
+                <br /><br />
+                <div className="listagem">
+                    {lista.map((item, index)=>(  
+                        <DetalheHistorico key={index} dados={item}/>
+                    ))}
+                </div>  
+            </div>
         </div>
     )
 }

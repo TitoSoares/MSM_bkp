@@ -15,11 +15,13 @@ function Relatorio(){
     return(
         <div className="planoFundo">
             <FuncaoCabecalho caminho={"Relátorio"}/>
-                <div className="listagem">
+            <div className="Controle">
+                <div className="listagemEspesifica">
                     {lista.map((item, index)=>(
                     <DetalheRelatorio key={index} dados={item}/>
                     ))}
                 </div>
+            </div>
         </div>
     )
 }

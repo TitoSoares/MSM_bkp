@@ -1,6 +1,6 @@
 export type AgendaType={
     id:string
-    data:Date
-    hora:Date
+    data:string
+    hora:string
     atividade:string
 }

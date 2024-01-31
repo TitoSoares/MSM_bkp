@@ -14,16 +14,22 @@ let lista=[
     {id:"Cliente7",data:"Sabado", hora:"11:00",atividade:"aaaaaa"}
 ]
 
+
 function Agenda(){
     return(
         <div className="planoFundo">
             <FuncaoCabecalho caminho={"Agenda"}/>
-            <CompAgendaServ/><br />
-            <br />
-            <div className="listagem">
-                {lista.map((item, index)=>(
-                    <DetalheAgenda key={index} dados={item}/>
-                ))}
+            <div className="Controle">
+                <CompAgendaServ/><br />
+                <div className="botaoRespostas">
+                        <div><button className="botaosCadastro">Enviar</button></div>
+                        <div><button className="botaosCadastro">Cancelar</button></div>
+                </div><br /><br />
+                <div className="listagem">
+                    {lista.map((item, index)=>(
+                        <DetalheAgenda key={index} dados={item}/>
+                    ))}
+                </div>
             </div>
         </div>
         

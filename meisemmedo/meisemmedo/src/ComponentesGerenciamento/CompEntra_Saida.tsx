@@ -15,9 +15,9 @@ function Entrada_Saida(){
 
 
     return(
-        <div className="ConfComponentes">
-            <div className="caixaInput">Coloque o tipo:<input type="text" value={tipo} onChange={handleEntradaInput} className="Inputs"></input></div>
-            <div className="caixaInput">Coloque o valor:<input type="text" value={valor} onChange={handleSaidaInput} className="Inputs"></input></div>
+        <div className="ConfComponentesEspecial">
+            <div className="caixaInputEspecial">Coloque o tipo:<input type="text" value={tipo} onChange={handleEntradaInput} className="InputsEspecial"></input></div>
+            <div className="caixaInputEspecial">Coloque o valor:<input type="text" value={valor} onChange={handleSaidaInput} className="InputsEspecial"></input></div>
         </div>
     )
 }

@@ -3,9 +3,13 @@ import CompEntra_Saida from "../ComponentesGerenciamento/CompEntra_Saida"
 
 function EntradaSaida(){
     return(
-        <div className="planoFundo">
+        <div className="planoFundoInfinito">
         <FuncaoCabecalho caminho={"Entrada e Saida"}/>
-        <CompEntra_Saida/><br/>  
+        <div className="Controle"><CompEntra_Saida/><br/></div>
+        <div className="botaoRespostas">
+            <div><button className="botaosCadastro">Enviar</button></div>
+            <div><button className="botaosCadastro">Cancelar</button></div>
+        </div>
         </div>
     )
 }
