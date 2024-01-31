@@ -66,11 +66,11 @@ export class UsuariosController{
     }
     @ApiResponse({status:200, description:"A operação foi um sucesso"})
     @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
-    @Get('/login')
+    @Post('/login')
     async Login(@Body() dadosUsuario:LoginUsuarioDTO){
     var login = this.claUsuariosArmazenados.validarLogin(dadosUsuario.email,dadosUsuario.senha)
     return{
-        usuario: login[1],
+        usuario: login[0],
             status: login[1],
             message: login[1] ? "Login efetuado" : "Usuario ou senha inválidos"
         }

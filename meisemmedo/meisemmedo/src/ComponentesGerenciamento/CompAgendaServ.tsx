@@ -25,10 +25,10 @@ function AgendaServicos(){
 
     return(
         <div className="ConfComponentes">
-            <div className="caixaInput">Nome do Cliente:<input type="text" value={nome} onChange={handleNomeAgendaInput}></input></div>
-            <div className="caixaInput">Dia:<input type="text" value={data} onChange={handleDataAgendaInput}></input></div>
-            <div className="caixaInput">Horário:<input type="text" value={hora} onChange={handleHoraAgendaInput}></input></div>
-            <div className="caixaInput">Atividade:<input type="text" value={atividade} onChange={handleAtividadeAgendaInput}></input></div><br />
+            <div className="caixaInput">Nome do Cliente:<input type="text" value={nome} onChange={handleNomeAgendaInput} className="Inputs"></input></div>
+            <div className="caixaInput">Dia:<input type="text" value={data} onChange={handleDataAgendaInput} className="Inputs"></input></div>
+            <div className="caixaInput">Horário:<input type="text" value={hora} onChange={handleHoraAgendaInput} className="Inputs"></input></div>
+            <div className="caixaInput">Atividade:<input type="text" value={atividade} onChange={handleAtividadeAgendaInput} className="Inputs"></input></div><br />
         </div>
     )
 }

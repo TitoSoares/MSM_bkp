@@ -47,6 +47,10 @@ function Cadastro(){
                         <div className="elementoCadastro">Senha:<input type="text" value={senha} onChange={handleSenhaInput}  className="caixaCadastro"></input></div>
                         <div className="elementoCadastro">Confirmar senha:<input type="text" value={senhaConfirmacao} onChange={handleSenhaConfirmacaoInput}  className="caixaCadastro"></input></div>
                     </div>
+                    <div className="botaoRespostas">
+                        <div><button className="botaosCadastro">Enviar</button></div>
+                        <div><button className="botaosCadastro">Cancelar</button></div>
+                    </div>
             </div>
         </div>
     )

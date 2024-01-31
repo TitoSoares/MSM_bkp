@@ -16,6 +16,7 @@
 }
 /*Menu*/
 .menu{
+    font-family: 'Calibri';
     margin-top: 34px;
     margin-left:10px;
     color:white;
@@ -43,7 +44,6 @@
     border-radius:50%;
     background-image:url("../../../public/imagem_5_cabecalho.png");
     background-color:grey;
-    border:2px white solid;
 }
 .imagemMenu:hover{
    background-color:rgb(155, 155, 155);
@@ -158,12 +158,12 @@
     justify-content:space-around;
     flex-wrap: wrap;
     align-items: center;
-    
 }
 .caixaFuncGen{
+    font-family: 'Calibri';
     margin-left: 10px;
     margin-right: 10px;
-    background-color:#2B485F;
+    background-color:grey;
     height: 70px;
     width: 98%;
     border-radius: 50px;
@@ -190,21 +190,43 @@
     display: flex;
     flex-direction:column;
     align-items: center;
-    margin-bottom: 30px;
 }
 .elementoCadastro{
-    font-size: 20px;
     color:white;
-    margin-top: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     width: 30%;
     height: 60px;
-    background-color:#2B485F;
+    background-color:rgb(49, 49, 49);
     border-radius: 50px;
 }
 .caixaCadastro{
+    color:black;
+    font-size: 18px;
+    font-family: 'Calibri';
     width: 250px;
-    height: 15px;
+    height: 20px;
+    margin-top:20px;
+    background-color:#D3D3D3;
+    outline: none;
+}
+.botaoRespostas{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.botaosCadastro{
+    margin-top: 10px;
+    margin-right: 5px;
+    width:250px;
+    height: 50px;
+    border-radius: 30px;
+    background-color:rgb(150,150,150);
+    font-size:20px;
+    font-family: "Calibri";
+}
+.botaosCadastro:hover{
+    background-color:rgba(150, 150, 150, 0.658);
 }
 /*=================================================================================================================================*/
 /*LOGIN*/
@@ -222,6 +244,7 @@
     align-items: center;
     height: auto;
     border-right: black solid 1px;
+    font-family: 'Calibri';
 }
 .fundoTexto{
     display: flex;
@@ -236,14 +259,14 @@
     margin-top: 100px;
 }
 .txt2{
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     font-size: 27px;
     width: 100%;
     height: 100px;
     margin-bottom: 23px;
 }
 .txt3{
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     height: 100px;
     width: 100%;
     font-size: 27px;
@@ -259,7 +282,7 @@
     margin-bottom:100px;
 }
 .login{
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Calibri';
     border-left: black solid 1px;
     align-items: center;
     display: flex;
@@ -463,6 +486,10 @@
 .caixaInput{
     width:100%;
     height: 25px;
+    font-family: 'Calibri';
+}
+.Inputs{
+    outline: none;
 }
 /*=================================================================================================================================*/
 /*Listas dos Componentes*/
@@ -487,6 +514,7 @@
 }
 .unidadeLista{
    margin-top: 10px;
+   font-family: 'Calibri';
 }
 /*=================================================================================================================================*/
 /*TUTORIAL*/
