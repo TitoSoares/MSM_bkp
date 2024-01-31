@@ -17,14 +17,15 @@
 /*Menu*/
 .menu{
     margin-top: 34px;
-    margin-left:10px;
+    margin-left:0px;
     color:white;
     font-size: 30px;
-    margin-right:10px;
+    margin-right:0px;
     width: 300px;
     height: 50px;
     border-radius: 30px;
     border:white solid 2px;
+    padding: 0px;
     
 }
 .menu:hover{
@@ -419,27 +420,24 @@
     height:auto;
     margin-right: 100px;
 }
-.botao1{
+.botaosHome{
     width:400px;
     height:100px;
     font-size: 20px;
+    font-family: "Calibri";
     border-radius: 50px;
     background-color:rgb(150, 150, 150);
     border: 1px black solid;
+}
+.botaosHome:hover{
+    background-color:rgba(150, 150, 150, 0.658);
 }
 .DivbotaoCadastro{
     margin-left: 100px;
     width:auto;
     height:auto;
 }
-.botao2{
-    font-size: 20px;
-    width:400px;
-    height:100px;
-    border-radius: 50px;
-    background-color:rgb(150, 150, 150);
-    border: 1px black solid;
-}
+
 /*=================================================================================================================================*/
 /*PLANO DE FUNDO*/
 .planoFundoLogin{
@@ -480,7 +478,7 @@
     width:70%;
     height: auto;
     font-size: 20px;
-    color: black;   
+    color: rgb(0, 0, 0);   
 }
 .Formatacaolista{
     list-style-type: none;
@@ -512,3 +510,25 @@
     width: 1897px;
 }
 /*=================================================================================================================================*/
+/*Notfound*/
+.notfound{
+    background-image: url("../../../public/notfound.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.botaonotfound{
+    margin-top: 29%;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:rgb(150, 150, 150);
+    border: 1px black solid;
+    font-family: "Calibri";
+}
+.botaonotfound:hover{
+    background-color:rgba(150, 150, 150, 0.658);
+}
