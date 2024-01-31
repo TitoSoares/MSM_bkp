@@ -18,8 +18,8 @@ function Home(){
                 </div>
                <div className="textofinal">Se interessou?<br />Cadastre-se já</div>
                <div className="botaoLogar_Cadastrar">
-                    <Link className="Link" to="/login"><div className="DivbotaoLogin"><button className="botao1">LOGIN</button></div></Link>
-                    <Link className="Link" to="/cadastro"><div className="DivbotaoCadastro"><button className="botao2">CADASTRAR</button></div></Link>
+                    <Link className="Link" to="/login"><div className="DivbotaoLogin"><button className="botaosHome">LOGIN</button></div></Link>
+                    <Link className="Link" to="/cadastro"><div className="DivbotaoCadastro"><button className="botaosHome">CADASTRAR</button></div></Link>
                </div>
             </div>
         </div>
