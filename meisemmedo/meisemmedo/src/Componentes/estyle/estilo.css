@@ -33,7 +33,7 @@
     margin-right:10px;
 }
 .menu:hover{
-    background-color:rgba(255, 255, 255, 0.199);
+    background-color:#e9e8e8;
 }
 .menusao{
     display: flex;
@@ -593,18 +593,18 @@
     flex-wrap: wrap;
     align-content: center;
 }
-.primeiraImag{
-    background-image: url("../../../public/Imagem-1-Tutorial.png");
-    height: 980px;
-    width: 1897px;
+.txtTitulo{
+    font-family:'Calibri';
+    font-size: 60px;
+    width:100%;
+    height:100px;
 }
-.segundaImag{
-    background-image: url("../../../public/Imagem-2-Tutorial.png");
+.carrossel{
     height: 980px;
     width: 1897px;
 }
 .txtTutorial{
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Calibri';
     margin-bottom:50px;
 }
@@ -640,6 +640,6 @@
     border: 1px black solid;
     font-family: "Calibri";
 }
-.botaonotfound:hover{
+.botaoNotFound:hover{
     background-color:rgba(150, 150, 150, 0.658);
 }

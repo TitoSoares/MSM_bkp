@@ -31,8 +31,6 @@ function App() {
         <Route path='/historico' element={<PaginaComponenteHistorico/>}></Route>
         <Route path='/relatorio' element={<PaginaComponenteRelatorio/>}></Route>
         <Route path='/requisicoes' element={<Requisicoes/>}></Route>
-        
-        
       </Routes>
     </div>
   );
