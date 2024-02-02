@@ -7,5 +7,5 @@ import { FilesArmazenados } from "./files.dm";
     providers:[FilesArmazenados]
 })
 export class FilesModule{
-
+    
 }
