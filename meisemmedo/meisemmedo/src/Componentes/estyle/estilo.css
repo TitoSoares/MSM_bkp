@@ -18,8 +18,13 @@
 }
 /*Menu*/
 .menu{
+<<<<<<< HEAD
     background-color: #52658F;
     font-family: 'Calibri';
+=======
+    background-color: #FFF;
+    font-family: 'Josefin Sans';
+>>>>>>> 845390593dff3a60a26332364c5f141ea9c706de
     color:black;
     font-size: 30px;
     width: 300px;
@@ -28,7 +33,11 @@
     margin-left: 50px;
 }
 .menu:hover{
+<<<<<<< HEAD
     background-color:#52658F;
+=======
+    background-color:grey;
+>>>>>>> 845390593dff3a60a26332364c5f141ea9c706de
 }
 .menusao{
     display: flex;
@@ -160,7 +169,7 @@
     align-items: center;
 }
 .caixaFuncGen{
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     margin-left: 10px;
     margin-right: 10px;
     background-color: #333A56;
@@ -202,7 +211,7 @@
 .caixaCadastro{
     color:black;
     font-size: 18px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     width: 250px;
     height: 20px;
     margin-top:20px;
@@ -222,7 +231,7 @@
     border-radius: 30px;
     background-color:rgb(85, 85, 85);
     font-size:20px;
-    font-family: "Calibri";
+    font-family: "Josefin Sans";
     border:1px solid black
     
 }
@@ -245,7 +254,7 @@
     align-items: center;
     height: auto;
     border-right: black solid 1px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
 }
 .fundoTexto{
     display: flex;
@@ -253,21 +262,21 @@
     align-items: center;
 }
 .txt1{
-    font-family:'Calibri';
+    font-family:'Josefin Sans';
     font-size: 90px;
     height: 100px;
     width: 100%;
     margin-top: 100px;
 }
 .txt2{
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     font-size: 27px;
     width: 100%;
     height: 100px;
     margin-bottom: 23px;
 }
 .txt3{
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     height: 100px;
     width: 100%;
     font-size: 27px;
@@ -283,7 +292,7 @@
     margin-bottom:100px;
 }
 .login{
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     border-left: black solid 1px;
     align-items: center;
     display: flex;
@@ -380,7 +389,7 @@
     margin-right: 550px;
     width: 450px;
     margin-top: 90px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     height: 238px;
     font-size: 55px;
     background-color: #FFF;
@@ -394,7 +403,7 @@
 .meiSemMedo{
     border-bottom:1px #FFF;
     padding-left:90px;
-    font-family:'Calibri';
+    font-family:'Josefin Sans';
     font-size:90px;
     height:auto;
     width:(100%-90px);
@@ -414,7 +423,7 @@
     width:40%;
     height:auto;
     font-size: 20px;
-    font-family:'Calibri';
+    font-family:'Josefin Sans';
 }
 .imgMEI{
     margin-top: 2%;
@@ -427,7 +436,7 @@
     height:auto;
     width:100%;
     font-size: 90px;
-    font-family:'Calibri';
+    font-family:'Josefin Sans';
     
 }
 .botaoLogar_Cadastrar{
@@ -447,7 +456,7 @@
     width:400px;
     height:100px;
     font-size: 20px;
-    font-family: "Calibri";
+    font-family: "Josefin Sans";
     border-radius: 50px;
     background-color:#F7F5E6;
     border: 1px black solid;
@@ -507,7 +516,7 @@
 .caixaInput{
     width:70%;
     height: 25px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     font-size: 20px;
     margin-top:5px;
     margin-bottom: 5px;
@@ -515,13 +524,13 @@
 .caixaInputEspecial{
     width:70%;
     height: 80px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     font-size: 40px;
     margin-top:20px;
     margin-bottom: 5px;
 }
 .Inputs{
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     width: 250px;
     outline: none;
     font-size: 15px;
@@ -529,7 +538,7 @@
     border:1px black solid;
 }
 .InputsEspecial{
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     width: 350px;
     outline: none;
     font-size: 30px;
@@ -570,7 +579,7 @@
 }
 .unidadeLista{
    margin-top: 10px;
-   font-family: 'Calibri';
+   font-family: 'Josefin Sans';
 }
 /*=================================================================================================================================*/
 /*TUTORIAL*/
@@ -583,7 +592,7 @@
     align-content: center;
 }
 .txtTitulo{
-    font-family:'Calibri';
+    font-family:'Josefin Sans';
     font-size: 60px;
     width:100%;
     height:100px;
@@ -594,13 +603,13 @@
 }
 .txtTutorial{
     font-size: 40px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     margin-bottom:50px;
 }
 .botaoFunGov{
     width:400px;
     height: 100px;
-    font-family: 'Calibri';
+    font-family: 'Josefin Sans';
     font-size: 27px;
     border-radius: 35px;
     background-color: #333A56;
@@ -627,7 +636,7 @@
     border-radius: 50px;
     background-color:#f8f8f8;
     border: 1px black solid;
-    font-family: "Calibri";
+    font-family: "Josefin Sans";
 }
 .botaoNotFound:hover{
     background-color:rgba(150, 150, 150, 0.658);
