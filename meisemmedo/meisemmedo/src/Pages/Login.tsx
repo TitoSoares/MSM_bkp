@@ -18,7 +18,7 @@ function Login(){
                         <div className="txt1">MEI SEM MEDO</div><br/>
                         <div className="txt2">
                             Desvende o caminho do empreendedorismo com confiança, sem medos, sem barreiras. <br /> Transformando sonhos em negócios reais, facilitando sua jornada para o sucesso
-                        </div>
+                        </div><br />
                         <div className="txt3"> Seu negócio, nossa missão, sem limites para suas conquistas</div>
                     </div>
                     <div className="img"></div>
