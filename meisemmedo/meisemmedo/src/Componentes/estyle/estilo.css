@@ -8,10 +8,11 @@
 .cabecalho{
     flex-direction: row;
     display: flex;
+    align-content:space-around ;
     width: 100%;
     height: auto;
     /*background:linear-gradient(to top,#2B485F,#122029);*/
-    background-color: #52658F;
+    background-color:#D3D3D3;
     justify-content:space-around;
     border-bottom: 1px solid black;
 }
@@ -22,15 +23,9 @@
     color:black;
     font-size: 30px;
     width: 300px;
-    height: 50px;
-    border-radius: 30px;
-    border:black solid 1px;
-    padding: 0px;
-}
-.espacoEntreMenu{
-    margin-top: 34px;
-    margin-left:10px;
-    margin-right:10px;
+    height:125px;
+    padding-top: 30px;
+    margin-left: 50px;
 }
 .menu:hover{
     background-color:#ffffff;
@@ -38,6 +33,7 @@
 .menusao{
     display: flex;
     flex-direction: row;
+    height:100%;
 }
 /*Imagem*/
 .imagemMenu{
