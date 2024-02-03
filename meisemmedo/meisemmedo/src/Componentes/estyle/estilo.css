@@ -12,14 +12,19 @@
     width: 100%;
     height: auto;
     /*background:linear-gradient(to top,#2B485F,#122029);*/
-    background-color:#D3D3D3;
+    background-color:#52658F;
     justify-content:space-around;
     border-bottom: 1px solid black;
 }
 /*Menu*/
 .menu{
+<<<<<<< HEAD
+    background-color: #52658F;
+    font-family: 'Calibri';
+=======
     background-color: #FFF;
     font-family: 'Josefin Sans';
+>>>>>>> 845390593dff3a60a26332364c5f141ea9c706de
     color:black;
     font-size: 30px;
     width: 300px;
@@ -28,7 +33,11 @@
     margin-left: 50px;
 }
 .menu:hover{
+<<<<<<< HEAD
+    background-color:#52658F;
+=======
     background-color:grey;
+>>>>>>> 845390593dff3a60a26332364c5f141ea9c706de
 }
 .menusao{
     display: flex;
@@ -163,7 +172,7 @@
     font-family: 'Josefin Sans';
     margin-left: 10px;
     margin-right: 10px;
-    background-color: grey;
+    background-color: #333A56;
     height: 70px;
     width: 98%;
     border-radius: 50px;
@@ -206,7 +215,7 @@
     width: 250px;
     height: 20px;
     margin-top:20px;
-    background-color:#D3D3D3;
+    background-color:#FFF;
     outline: none;
 }
 .botaoRespostas{
@@ -241,7 +250,7 @@
     flex-direction:column;
     flex: 5;
     font-size: 50px;
-    background-color: #D3D3D3;
+    background-color: #FFF;
     align-items: center;
     height: auto;
     border-right: black solid 1px;
@@ -309,7 +318,7 @@
     margin-bottom: 15px;
     width: 50%;
     height: 55px;
-    background-color:grey;
+    background-color:#333A56;
     border-radius: 50px;
     font-size: 25px;
     border: black solid 1px;
@@ -318,7 +327,7 @@
     margin-top: 12px;
     height: 25px;
     width: 210px;
-    background-color:grey;
+    background-color:#333A56;
 }
 .funLogin{
     flex: 1;
@@ -335,7 +344,7 @@
     border: black solid 1px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: grey;
+    background-color: #333A56;
     height: 50px;
     width: 150px;
     font-size: 25px;
@@ -346,7 +355,7 @@
     font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color:grey;
+    background-color:#333A56;
     height: 50px;
     width: 150px;
     border-radius: 50px;
@@ -453,7 +462,7 @@
     font-size: 20px;
     font-family: "Josefin Sans";
     border-radius: 50px;
-    background-color:rgb(150, 150, 150);
+    background-color:#F7F5E6;
     border: 1px black solid;
 }
 .botaosHome:hover{
@@ -471,7 +480,7 @@
     background-color: #fff;
 }
 .planoFundoInfinito{
-    background-color:#D3D3D3;
+    background-color:#FFF;
     height:100vh;
 }
 /*=================================================================================================================================*/
@@ -529,7 +538,7 @@
     width: 250px;
     outline: none;
     font-size: 15px;
-    background-color: #D3D3D3;
+    background-color: #FFF;
     border:1px black solid;
 }
 .InputsEspecial{
@@ -537,7 +546,7 @@
     width: 350px;
     outline: none;
     font-size: 30px;
-    background-color: #D3D3D3;
+    background-color: #FFF;
     border:1px black solid;
 }
 /*=================================================================================================================================*/
@@ -548,10 +557,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    background-color:rgb(150, 150, 150);
+    background-color:#f8f8f8;
     border-radius: 30px;
 }
 .listagemEspesifica{
@@ -563,14 +569,10 @@
     align-content: center;
     width:55%;
     height: auto;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    background-color:rgb(150, 150, 150);
+    background-color:#f8f8f8;
 }
 .lista{
     width: 100%;
-    border-bottom: 1px solid black;
     height: auto;
     font-size: 20px;
     color: rgb(0, 0, 0);   
@@ -614,7 +616,7 @@
     font-family: 'Josefin Sans';
     font-size: 27px;
     border-radius: 35px;
-    background-color: grey;
+    background-color: #333A56;
     border: 1px solid black;
 }
 .botaoFunGov:hover{
@@ -636,7 +638,7 @@
     height: 35px;
     font-size: 20px;
     border-radius: 50px;
-    background-color:rgb(150, 150, 150);
+    background-color:#f8f8f8;
     border: 1px black solid;
     font-family: "Josefin Sans";
 }
