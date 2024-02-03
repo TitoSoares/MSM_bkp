@@ -18,13 +18,8 @@
 }
 /*Menu*/
 .menu{
-<<<<<<< HEAD
-    background-color: #52658F;
-    font-family: 'Calibri';
-=======
     background-color: #FFF;
     font-family: 'Josefin Sans';
->>>>>>> 845390593dff3a60a26332364c5f141ea9c706de
     color:black;
     font-size: 30px;
     width: 300px;
@@ -33,11 +28,7 @@
     margin-left: 50px;
 }
 .menu:hover{
-<<<<<<< HEAD
-    background-color:#52658F;
-=======
     background-color:grey;
->>>>>>> 845390593dff3a60a26332364c5f141ea9c706de
 }
 .menusao{
     display: flex;
