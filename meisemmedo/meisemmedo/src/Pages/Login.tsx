@@ -31,6 +31,7 @@ function Login(){
                         <div className="botaoLogin"><div className="txtBotao">Logar</div></div>
                         <div className="botaoCancel"><div className="txtBotao">Cancelar</div></div>
                     </div>
+                    <div className="textFacaCadastro">Não tem Login? Faça seu Cadastro</div>
                 </div>
             </div>
     )
