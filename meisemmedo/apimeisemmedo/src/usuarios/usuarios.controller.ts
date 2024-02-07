@@ -33,7 +33,7 @@ export class UsuariosController{
         const usuarioAtualizado=await this.claUsuariosArmazenados.atualizaUsuario(id, novosDados)
         return{
             usuario:usuarioAtualizado,
-            message:"Usuáio atulizado"
+            message:"Usuário atulizado"
         }   
     }
     @ApiResponse({status:200, description:"A operação foi um sucesso"})
