@@ -18,7 +18,7 @@ export class Entrada_saidaController{
     @ApiResponse({status:500, description:"Ocorreu um erro na operação! Tente novamente mais tarde"})
     @Post()
     async criaEntrada_Saida(@Body() dadosEntrada_Saida:CriaEntrada_SaidaDTO){
-        var entrada_saida=new Entrada_SaidaEntity(uuid(),dadosEntrada_Saida.tipe,dadosEntrada_Saida.valor,dadosEntrada_Saida.foto)
+        var entrada_saida=new Entrada_SaidaEntity(uuid(),dadosEntrada_Saida.tipo,dadosEntrada_Saida.valor,dadosEntrada_Saida.foto)
         this.claEntrada_SaidaArmazenados.AdicionarEntrada_Saida(entrada_saida)
         var retorno={
             id:entrada_saida.id,
@@ -44,7 +44,7 @@ export class Entrada_saidaController{
         const listaRetorno=entrada_saidaListados.map(
             entrada_saida=> new ListaEntrada_Saida(
                 entrada_saida.id,
-                entrada_saida.tipe,
+                entrada_saida.tipo,
                 entrada_saida.valor,
                 entrada_saida.foto          
             )

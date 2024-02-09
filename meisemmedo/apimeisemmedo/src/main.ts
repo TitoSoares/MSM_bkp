@@ -23,8 +23,9 @@ async function bootstrap() {
     .setDescription("A presente API, tem como objetivo simular cadastros de possiveis usuarios e atividades")
     .setVersion('1.0')
     .addTag("usuarios")
-    .addTag("entrada_saidas")
+    .addTag("entrada_saida")
     .addTag("agenda")
+    .addTag("files")
     .build();
   const document=SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document)

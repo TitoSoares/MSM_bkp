@@ -9,7 +9,7 @@ export class AlteraEntrada_SaidaDTO{
         example:" 'false' or 'true' ",
         description:"O número 0 representa as operações de 'Saída' e o número 1 representa as operações de 'Entrada'"
     })
-    tipe:boolean
+    tipo:boolean
 
     @IsNumber()
     @IsNotEmpty({message:"O valor não pode ser vazio"})

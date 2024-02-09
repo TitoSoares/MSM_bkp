@@ -1,12 +1,12 @@
 export class Entrada_SaidaEntity{
     id:string
-    tipe:boolean
+    tipo:boolean
     valor:Number
     foto:string
 
-    constructor(id:string, tipe:boolean,valor:Number, foto:string){
+    constructor(id:string, tipo:boolean,valor:Number, foto:string){
     this.id=id;
-    this.tipe=tipe;
+    this.tipo=tipo;
     this.valor=valor;
     this.foto=foto;
     }

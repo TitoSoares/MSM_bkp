@@ -9,6 +9,10 @@ O Projeto foi desenvolvido pelos alunos Kristopher e Victor, para o nosso Projet
 
 [Nest](https://github.com/nestjs/nest) 
 
+<p align="center">
+  <a href="" target="blank"><img src="Start.png" width="200" alt="Logo" /></a>
+</p>
+
 # Descrição da API
 ## Modulo de Cadastro de Usuario
 Caminho para o módulo: ``` /usuarios```

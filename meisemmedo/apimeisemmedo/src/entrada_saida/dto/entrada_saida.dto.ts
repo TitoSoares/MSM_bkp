@@ -7,9 +7,9 @@ export class CriaEntrada_SaidaDTO{
     @IsNotEmpty({message:"O campo não pode ser vazio"})
     @ApiProperty({
         example:" 'false'=Saida / 'true'=Entrada ",
-        description:"O tipo é usado para determinar se a operação é de saida('0') e entrada('1')"
+        description:"O tipo é usado para determinar se a operação é de saída('0') e entrada('1')"
     })
-    tipe:boolean
+    tipo:boolean
 
     @IsNumber(undefined,{message:"Esse valor de número não é válido"})
     @IsNotEmpty({message:"O campo não pode ser vazio"})
