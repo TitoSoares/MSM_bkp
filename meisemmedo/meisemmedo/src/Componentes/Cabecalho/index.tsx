@@ -10,7 +10,7 @@ function FuncaoCabecalho(teste : propriedade){
     return(<div>
                 <div className="cabecalho">
                     <Menu/>
-                    <div className="imagemMenu"></div>
+                    {/* <div className="imagemMenu"></div> */}
                 </div>
                 <div>O caminho é:{teste.caminho}</div>
             </div>

@@ -1,3 +1,8 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
 /*FlexBox*/
 .container{
     display: flex;
@@ -18,8 +23,8 @@
 }
 /*Menu*/
 .menu{
-    background-color: #FFF;
-    font-family: 'Josefin Sans';
+    background-color: #52658F;
+    /* font-family: 'Josefin Sans'; */
     color:black;
     font-size: 30px;
     width: 300px;
@@ -28,7 +33,7 @@
     margin-left: 50px;
 }
 .menu:hover{
-    background-color:grey;
+    background-color:rgba(71, 87, 122, 0.612)
 }
 .menusao{
     display: flex;
@@ -160,7 +165,7 @@
     align-items: center;
 }
 .caixaFuncGen{
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     margin-left: 10px;
     margin-right: 10px;
     background-color: #333A56;
@@ -202,7 +207,7 @@
 .caixaCadastro{
     color:black;
     font-size: 18px;
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     width: 250px;
     height: 20px;
     margin-top:20px;
@@ -222,7 +227,7 @@
     border-radius: 30px;
     background-color:rgb(85, 85, 85);
     font-size:20px;
-    font-family: "Josefin Sans";
+    /* font-family: "Josefin Sans"; */
     border:1px solid black
     
 }
@@ -238,14 +243,13 @@
 }
 .escritaMEI{
     display: flex;
-    flex-direction:column;
-    flex: 5;
-    font-size: 50px;
+    flex-direction:column;        
     background-color: #FFF;
     align-items: center;
     height: auto;
-    border-right: black solid 1px;
-    font-family: 'Josefin Sans';
+    width: 50%;
+    border-right: black solid 1px;    
+    /* font-family: 'Josefin Sans'; */
 }
 .fundoTexto{
     display: flex;
@@ -253,29 +257,33 @@
     align-items: center;
 }
 .txt1{
-    font-family:'Josefin Sans';
+    /* font-family:'Josefin Sans'; */
     font-size: 90px;
     height: 100px;
     width: 100%;
     margin-top: 100px;
 }
 .txt2{
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 27px;
     width: 100%;
     height: 100px;
     margin-bottom: 23px;
 }
 .txt3{
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     height: 100px;
     width: 100%;
     font-size: 27px;
     margin-bottom: 50px;
 }
 .img{
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
     background-image:url("../../../public/Imagem_1_log.png") ;
     background-repeat: no-repeat;
     background-position: center;
@@ -283,7 +291,7 @@
     margin-bottom:100px;
 }
 .login{
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     border-left: black solid 1px;
     align-items: center;
     display: flex;
@@ -292,7 +300,7 @@
     flex-wrap: wrap;
     justify-content:space-around;
     flex:4;
-    background-color:rgb(73, 73, 73);
+    background-color:#ecf0f1;;
 }
 .imagemLogin{
     margin-top: 120px;
@@ -314,23 +322,39 @@
     font-size: 25px;
     border: black solid 1px;
 }
-.caixaLogin{
+/* .caixaLogin{
     margin-top: 12px;
     height: 25px;
     width: 210px;
     background-color:#333A56;
-}
-.funLogin{
-    flex: 1;
+} */
+
+.caixaTexto {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #3498db;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+  }
+
+  .caixaTexto:focus {
+    border-bottom-color: #2ecc71;
+  }
+
+
+.funLogin{    
     margin-top:80px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    display: flex;        
+    justify-content:center;
     flex-direction:row;
     width:auto;
     height: auto;
     margin-bottom: 10px;
 }
+
+
 .botaoLogin{
     border: black solid 1px;
     margin-left: 10px;
@@ -352,11 +376,28 @@
     border-radius: 50px;
 }
 .txtBotao{
-    margin-top:8px;
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;  
 }
+
+.txtBotao:hover {
+    background-color: #2ecc71;
+  }
+
 .textFacaCadastro{
-    font-family:'Josefin Sans';
-    font-size: 30px;
+    /* font-family:'Josefin Sans'; */
+    font-size: 20px;    
+    text-decoration: none;
 }
 /*=================================================================================================================================*/
 /*HOME*/
@@ -384,7 +425,7 @@
     margin-right: 550px;
     width: 450px;
     margin-top: 90px;
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     height: 238px;
     font-size: 55px;
     background-color: #FFF;
@@ -398,7 +439,7 @@
 .meiSemMedo{
     border-bottom:1px #FFF;
     padding-left:90px;
-    font-family:'Josefin Sans';
+    /* font-family:'Josefin Sans'; */
     font-size:90px;
     height:auto;
     width:(100%-90px);
@@ -418,7 +459,7 @@
     width:40%;
     height:auto;
     font-size: 20px;
-    font-family:'Josefin Sans';
+    /* font-family:'Josefin Sans'; */
 }
 .imgMEI{
     margin-top: 2%;
@@ -431,7 +472,7 @@
     height:auto;
     width:100%;
     font-size: 90px;
-    font-family:'Josefin Sans';
+    /* font-family:'Josefin Sans'; */
     
 }
 .botaoLogar_Cadastrar{
@@ -451,7 +492,7 @@
     width:400px;
     height:100px;
     font-size: 20px;
-    font-family: "Josefin Sans";
+    /* font-family: "Josefin Sans"; */
     border-radius: 50px;
     background-color:#F7F5E6;
     border: 1px black solid;
@@ -511,7 +552,7 @@
 .caixaInput{
     width:70%;
     height: 25px;
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     font-size: 20px;
     margin-top:5px;
     margin-bottom: 5px;
@@ -519,13 +560,13 @@
 .caixaInputEspecial{
     width:70%;
     height: 80px;
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     font-size: 40px;
     margin-top:20px;
     margin-bottom: 5px;
 }
 .Inputs{
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     width: 250px;
     outline: none;
     font-size: 15px;
@@ -533,7 +574,7 @@
     border:1px black solid;
 }
 .InputsEspecial{
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     width: 350px;
     outline: none;
     font-size: 30px;
@@ -574,7 +615,7 @@
 }
 .unidadeLista{
    margin-top: 10px;
-   font-family: 'Josefin Sans';
+   /* font-family: 'Josefin Sans'; */
 }
 /*=================================================================================================================================*/
 /*TUTORIAL*/
@@ -587,7 +628,7 @@
     align-content: center;
 }
 .txtTitulo{
-    font-family:'Josefin Sans';
+    /* font-family:'Josefin Sans'; */
     font-size: 60px;
     width:100%;
     height:100px;
@@ -598,13 +639,13 @@
 }
 .txtTutorial{
     font-size: 40px;
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     margin-bottom:50px;
 }
 .botaoFunGov{
     width:400px;
     height: 100px;
-    font-family: 'Josefin Sans';
+    /* font-family: 'Josefin Sans'; */
     font-size: 27px;
     border-radius: 35px;
     background-color: #333A56;
@@ -631,8 +672,14 @@
     border-radius: 50px;
     background-color:#f8f8f8;
     border: 1px black solid;
-    font-family: "Josefin Sans";
+    /* font-family: "Josefin Sans"; */
 }
 .botaoNotFound:hover{
     background-color:rgba(150, 150, 150, 0.658);
+}
+/*=================================================================================================================================*/
+/*requisicoes*/
+
+.requisicoes{
+    width: 100px;
 }

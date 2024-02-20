@@ -14,10 +14,12 @@ import PaginaComponenteEntradaeSaida from './Pages/PaginaComponenteEntradaeSaida
 import PaginaComponenteHistorico from './Pages/PaginaComponenteHistorico';
 import PaginaComponenteRelatorio from './Pages/PaginaComponenteRelatorio';
 import Requisicoes from './Pages/requisicoes';
+import { UsuarioLogadoProvider } from './contexts/contextAuth';
 
 function App() {
   return (
     <div className="App">
+    <UsuarioLogadoProvider>
       <Routes>
         <Route path='*' element={<NotFound/>}></Route>
         <Route path='/' element={<Home/>}></Route>
@@ -32,6 +34,7 @@ function App() {
         <Route path='/relatorio' element={<PaginaComponenteRelatorio/>}></Route>
         <Route path='/requisicoes' element={<Requisicoes/>}></Route>
       </Routes>
+    </UsuarioLogadoProvider>
     </div>
   );
 }

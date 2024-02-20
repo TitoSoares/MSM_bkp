@@ -1,6 +1,5 @@
-export type Produto={
-    title:String
-    price:number
-    description:String
-    image:string
+export type UsuarioNew={
+    title:string;
+    body:string;
+    userID:number;
 }
