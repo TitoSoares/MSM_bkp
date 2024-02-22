@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function FuncaoGov() {
   return (
     <div className="planoFundo">
-      <FuncaoCabecalho caminho={"Home/FuncaoGov"}/>
+      <FuncaoCabecalho/>
         <div className="DivCenter">
             <div className="DivCenter">
               <Link className="Link" target="_blank"to="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/emissao-de-comprovante-ccmei"><div className="caixa1"></div></Link>

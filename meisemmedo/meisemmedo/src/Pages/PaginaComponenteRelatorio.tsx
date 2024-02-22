@@ -14,7 +14,7 @@ let lista=[
 function Relatorio(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho caminho={"Relátorio"}/>
+            <FuncaoCabecalho/>
             <div className="Controle">
                 <div className="listagemEspesifica">
                     {lista.map((item, index)=>(

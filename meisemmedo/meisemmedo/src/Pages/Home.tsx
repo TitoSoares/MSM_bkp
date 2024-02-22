@@ -4,7 +4,7 @@ import "../Componentes/estyle/estilo.css"
 function Home(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho caminho={"Home"}/>
+            <FuncaoCabecalho/>
             <div className="home">
                 <div className="quemsomos">
                     <div className="escritaQuemSomos">Quem somos..?</div>

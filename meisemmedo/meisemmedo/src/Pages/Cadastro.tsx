@@ -36,7 +36,7 @@ function Cadastro(){
     }
     return(
         <div className="planoFundoInfinito">
-            <FuncaoCabecalho caminho={"Home/Cadastro"}/>
+            <FuncaoCabecalho/>
             <Link className="textFacaCadastro" to="/login"><div>Já tem seu Login? Entre aqui</div></Link>
             <div className="formatacaoCadastro">
                 <div className="imagemLogo"></div>

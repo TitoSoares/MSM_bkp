@@ -14,7 +14,7 @@ let lista=[
 function Historico(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho caminho={"Historico"}/>
+            <FuncaoCabecalho/>
             <div className="Controle">
                 <CompHistServ/><br />
                 <div className="botaoRespostas">

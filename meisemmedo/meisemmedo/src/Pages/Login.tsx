@@ -26,14 +26,15 @@ function Login(){
 
     return(
         <div>
-                <FuncaoCabecalho caminho={"Login"}/>
+                <FuncaoCabecalho/>
             <div className="logincoluna">
                 
                 <div className="escritaMEI">
                     <div className="fundoTexto">
                         <h1>MEI SEM MEDO</h1><br/>
                         
-                            Desvende o caminho do empreendedorismo com confiança, sem medos, sem barreiras. <br /> Transformando sonhos em negócios reais, facilitando sua jornada para o sucesso
+                            Desvende o caminho do empreendedorismo com confiança, sem medos, sem barreiras. 
+                            <br /> Transformando sonhos em negócios reais, facilitando sua jornada para o sucesso
                             <br />
                             Seu negócio, nossa missão, sem limites para suas conquistas
                             <br /><br /><br /><br />
@@ -51,9 +52,8 @@ function Login(){
                     <input placeholder="Insira sua senha" type="text" value={senha} onChange={handleSenhaInput} className="caixaTexto"></input>
                     <div className="funLogin">
 
-                    <button className="txtBotao">Acessar</button>
-                    <button className="txtBotao">Acessar</button>
-                    <button className="txtBotao">Acessar</button>
+                    <button className="txtBotao">Logar</button>
+                    <button className="txtBotao" onClick={AcessoDireto}>Acesso</button>
 
 
                         {/* <div className="botaoLogin"><div className="txtBotao">Logar</div></div>

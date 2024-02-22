@@ -15,6 +15,7 @@ import PaginaComponenteHistorico from './Pages/PaginaComponenteHistorico';
 import PaginaComponenteRelatorio from './Pages/PaginaComponenteRelatorio';
 import Requisicoes from './Pages/requisicoes';
 import { UsuarioLogadoProvider } from './contexts/contextAuth';
+import LoginN from './Pages/Login new';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/gen' element={<Gerenciamento/>}></Route>
         <Route path='/tutorial' element={<Tutorial/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
+        <Route path='/loginN' element={<LoginN/>}></Route>
         <Route path='/cadastro' element={<Cadastro/>}></Route>
         <Route path='/agenda' element={<PaginaComponenteAgenda/>}></Route>
         <Route path='/entrada_saida' element={<PaginaComponenteEntradaeSaida/>}></Route>

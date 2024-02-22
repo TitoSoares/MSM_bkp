@@ -5,7 +5,8 @@ import "../Componentes/estyle/estilo.css"
 function Tutorial(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho caminho={"Home/Tutorial"}/> <br />
+            <FuncaoCabecalho/>
+            <br />
             <div className="txtTitulo">Como criar minha conta MEI?</div>
             <div className="carrossel">
             <UncontrolledCarousel

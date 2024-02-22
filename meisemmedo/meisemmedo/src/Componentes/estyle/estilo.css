@@ -2,6 +2,35 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    background-color: #3498db;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-item {
+    margin: 0 20px;
+  }
+
+  .menu-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .menu-item a:hover {
+    color: #2ecc71;
+  }
+
+
 
 /*FlexBox*/
 .container{
@@ -311,6 +340,7 @@ body{
     background-image:url("../../../public/Imagem_2_log.png");
     background-color: white;
     border: black solid 2px;
+    
 }
 .elementoLogin{
     margin-top:30px;

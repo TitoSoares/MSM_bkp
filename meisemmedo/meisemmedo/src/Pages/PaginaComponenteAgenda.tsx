@@ -18,7 +18,7 @@ let lista=[
 function Agenda(){
     return(
         <div className="planoFundo">
-            <FuncaoCabecalho caminho={"Agenda"}/>
+            <FuncaoCabecalho/>
             <div className="Controle">
                 <CompAgendaServ/><br />
                 <div className="botaoRespostas">

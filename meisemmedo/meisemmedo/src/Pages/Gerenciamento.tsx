@@ -28,7 +28,7 @@ function Gerenciamento(){
             
             {UsuarioLogadoCtx?.name &&
             <div>
-            <FuncaoCabecalho caminho={"Home/Gerenciamento"}/>
+            <FuncaoCabecalho/>
             <Link className="Link" to="/historico"><div className="caixaFuncGen">Historico de serviços</div></Link>
             <Link className="Link" to="/relatorio"><div className="caixaFuncGen">Relatorio Mensal</div></Link>
             <Link className="Link" to="/entrada_saida"><div className="caixaFuncGen">Entrada/Saida</div></Link>
