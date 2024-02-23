@@ -1,20 +1,23 @@
 import { type } from "@testing-library/user-event/dist/type";
-import "../estyle/estilo.css"
-import Menu from "../Menu";
+import "../estyle/estilonew.css"
+
 import { Link } from "react-router-dom";
 
 
 function FuncaoCabecalho(){
     return(
         <div>
-            <header>
+            <header className="HeadCabecalho">
+            
+                <div><img className="ImgCabecalho" src="MSM_logo1.png"/></div>
 
-                <div className="menu-container">
+                <div className="DivCabecalho">
                     
-                <div className="menu-item"><a href="#"><Link className="Link" to="/">Home</Link></a></div>
-                    <div className="menu-item"><a href="#"><Link className="Link" to="/tutorial">Como criar uma MEI?</Link></a></div>
-                    <div className="menu-item"><a href="#"><Link className="Link" to="/gov">Funções Gov</Link></a></div>
-                    <div className="menu-item"><a href="#">Contato</a></div>
+                    <div className="ItemCabecalho"><a href="#"><Link to="/">Home</Link></a></div>
+                    <div className="ItemCabecalho"><a href="#"><Link to="/tutorial">Como criar uma MEI?</Link></a></div>
+                    <div className="ItemCabecalho"><a href="#"><Link to="/gov">Funções Gov</Link></a></div>
+                    <div className="ItemCabecalho"><a href="#"><Link to="/gen">Login</Link></a></div>
+                 
                 </div>
 
             </header>

@@ -49,17 +49,18 @@ function LoginN(){
 
                     <img src="Imagem_2_log.png" className="ImgRightLogin"/>
 
-                    <input placeholder="Insira seu login" type="text"  value={login} onChange={handleLoginInput} className="InputText"></input>
+                    
+                    <input placeholder="Insira seu login" type="text"  value={login} onChange={handleLoginInput} className="InputLogin"></input>
+                    <input placeholder="Insira sua senha" type="text" value={senha} onChange={handleSenhaInput} className="InputLogin"></input>
 
-
-                    <input placeholder="Insira sua senha" type="text" value={senha} onChange={handleSenhaInput} className="InputText"></input>
                     <br />
                     <div className="DivBotoesLogin">
-                    <button className="Button">Logar</button>
-                    <button className="Button" onClick={AcessoDireto}>Acesso</button>
+                        <button className="ButtonLogin">Logar</button>
+                        <button className="ButtonLogin" onClick={AcessoDireto}>Acesso</button>
                     </div>
-                    <br/>
-                    <Link to="/cadastro" className="LinkLogin">Não tem Login? Faça seu Cadastro</Link>
+
+                    <br/><br/>
+                    <Link to="/cadastroN" className="LinkLogin">Não tem Login? Faça seu Cadastro</Link>
                 </div>
 
             </div>

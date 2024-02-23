@@ -8,6 +8,7 @@ import Gerenciamento from './Pages/Gerenciamento';
 import Tutorial from './Pages/Tutorial';
 import Login from './Pages/Login';
 import Cadastro from './Pages/Cadastro';
+import CadastroN from './Pages/Cadastro new';
 import NotFound from './Pages/NotFound';
 import PaginaComponenteAgenda from './Pages/PaginaComponenteAgenda';
 import PaginaComponenteEntradaeSaida from './Pages/PaginaComponenteEntradaeSaida';
@@ -30,6 +31,7 @@ function App() {
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/loginN' element={<LoginN/>}></Route>
         <Route path='/cadastro' element={<Cadastro/>}></Route>
+        <Route path='/cadastroN' element={<CadastroN/>}></Route>
         <Route path='/agenda' element={<PaginaComponenteAgenda/>}></Route>
         <Route path='/entrada_saida' element={<PaginaComponenteEntradaeSaida/>}></Route>
         <Route path='/historico' element={<PaginaComponenteHistorico/>}></Route>
